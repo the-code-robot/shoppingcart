@@ -3,6 +3,7 @@
  * @description Represents a single item in a shopping cart, managing its details such as product information, quantity, unit price, and discounts.
  */
 
+import { ICartParameters } from "./ShoppingCart";
 import { IOnChangeCallback } from "./common_types";
 
 /**
@@ -57,6 +58,7 @@ export type ICartItemParameters<ProductType> =
 
 export interface ICartItemJSON<ProductType> {
 	index: number;
+	id: string;
 	product: ProductType;
 	unit_price: number;
 	quantity: number;
@@ -127,6 +129,27 @@ export class ShoppingCartItem<ProductType extends object> {
 		this._aggregate_price = aggregate_price;
 	}
 
+	static parse<ProductType extends object>(
+		str: string,
+		onChange?: IOnChangeCallback<ShoppingCartItem<ProductType>>,
+	): ShoppingCartItem<ProductType> {
+		const obj = JSON.parse(str);
+		if (!isShoppingCartItemJSON(obj)) {
+			throw new Error("Error parsing the ShoppingCartItem: invalid format.");
+		}
+
+		const params: ICartItemParameters<ProductType> = {
+			index: obj.index,
+			id: obj.id,
+			product: obj.product as ProductType,
+			unit_price: obj.unit_price,
+			quantity: obj.quantity,
+			total_discount: obj.total_discount,
+			unit_discount: obj.unit_discount,
+		};
+		return new ShoppingCartItem<ProductType>({ ...params }, onChange);
+	}
+
 	/**
 	 * Returns the ShoppingCartItem as an object consisting of all its public properties.
 	 * @returns An object representing the ShoppingCartItem with its public properties.
@@ -134,6 +157,7 @@ export class ShoppingCartItem<ProductType extends object> {
 	valueOf(): ICartItemJSON<ProductType> {
 		return {
 			index: this._index,
+			id: this._id,
 			product: { ...this._product },
 			unit_price: this.unit_price,
 			quantity: this._quantity,
@@ -349,4 +373,41 @@ export function isShoppingCartItem<T extends object>(
 		return false;
 	}
 	return arg instanceof ShoppingCartItem;
+}
+
+export function isShoppingCartItemJSON<T extends object>(
+	arg: unknown,
+): arg is ICartItemJSON<T> {
+	if (!arg || typeof arg !== "object") {
+		return false;
+	}
+	const props = [
+		"index",
+		"id",
+		"product",
+		"unit_price",
+		"quantity",
+		"unit_discount",
+		"total_discount",
+		"aggregate_price",
+	];
+
+	for (let prop of props) {
+		if (!(prop in arg)) {
+			return false;
+		}
+		if (prop !== "product" && prop !== "id") {
+			const n_value = Number(arg[prop as keyof typeof arg]);
+			if (Number.isNaN(n_value)) {
+				return false;
+			}
+		}
+		if (prop === "id") {
+			const n_value = Number(arg[prop as keyof typeof arg]);
+			if (typeof n_value !== "string") {
+				return false;
+			}
+		}
+	}
+	return true;
 }

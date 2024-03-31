@@ -238,6 +238,26 @@ export default class ShoppingCart<ProductType extends object> {
 	}
 
 	/**
+	 * Parse a possibly serialized ShoppingCart to ShoppingCartItems array
+	 * @param str - A string which possible be serialized ShoppingCart
+	 */
+	static parse<ProductType extends object>(
+		str: string,
+		onChange?: IOnChangeCallback<ShoppingCartItem<ProductType>>,
+	): ShoppingCartItem<ProductType>[] {
+		let s = str.trim();
+		s = s.replace(/(^\[|\]$)/g, "");
+		const item_candidates = s.split(",");
+		const result: ShoppingCartItem<ProductType>[] = [];
+
+		for (const item_candidate of item_candidates) {
+			result.push(ShoppingCartItem.parse(item_candidate, onChange));
+		}
+
+		return result;
+	}
+
+	/**
 	 * Returns the value of the shopping cart as an array of objects, each representing a ShoppingCartItem.
 	 * @returns An array of objects representing each ShoppingCartItem in the shopping cart.
 	 */
