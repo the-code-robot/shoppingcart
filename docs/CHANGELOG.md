@@ -1,12 +1,6 @@
-# 1.0.0 (2024-03-31)
+# [1.1.0](https://github.com/sreed17/shoppingcart/compare/v1.0.0...v1.1.0) (2024-03-31)
 
 
 ### Features
 
-* add persistance feature ([75634b9](https://github.com/sreed17/shoppingcart/commit/75634b9d21587b016764b550726e786fc6e3a24a))
-* **shoppingcartprovider.tsx:** add initialValue property ([3f2d4e8](https://github.com/sreed17/shoppingcart/commit/3f2d4e802c6d26cf5f5cf51b949dfe87d761eaef))
-
-
-### BREAKING CHANGES
-
-* Persistance feature is added. it is not tested.
+* release new version with persistance ([bea1116](https://github.com/sreed17/shoppingcart/commit/bea111624668d8c9860a931622f87579851d2a32))

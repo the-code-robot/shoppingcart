@@ -34,7 +34,7 @@ Represents the parameters for creating a shopping cart item.
 
 #### Defined in
 
-[ShoppingCartItem.ts:56](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L56)
+[ShoppingCartItem.ts:56](https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L56)
 
 ___
 
@@ -54,7 +54,7 @@ Represents the optional parameters for creating a shopping cart item.
 
 #### Defined in
 
-[ShoppingCartItem.ts:35](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L35)
+[ShoppingCartItem.ts:35](https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L35)
 
 ___
 
@@ -81,7 +81,7 @@ Represents the required parameters for creating a shopping cart item.
 
 #### Defined in
 
-[ShoppingCartItem.ts:12](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L12)
+[ShoppingCartItem.ts:12](https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L12)
 
 ## Functions
 
@@ -111,4 +111,4 @@ A boolean indicating whether the argument is an instance of ShoppingCartItem.
 
 #### Defined in
 
-[ShoppingCartItem.ts:369](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L369)
+[ShoppingCartItem.ts:369](https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L369)

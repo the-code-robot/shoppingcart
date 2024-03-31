@@ -49,7 +49,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 404,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L404"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L404"
 								}
 							],
 							"signatures": [
@@ -72,7 +72,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 404,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L404"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L404"
 										}
 									],
 									"typeParameter": [
@@ -151,7 +151,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 192,
 									"character": 5,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L192"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L192"
 								}
 							],
 							"getSignature": {
@@ -173,7 +173,7 @@
 										"fileName": "ShoppingCart.ts",
 										"line": 192,
 										"character": 5,
-										"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L192"
+										"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L192"
 									}
 								],
 								"type": {
@@ -193,7 +193,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 199,
 									"character": 5,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L199"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L199"
 								}
 							],
 							"getSignature": {
@@ -215,7 +215,7 @@
 										"fileName": "ShoppingCart.ts",
 										"line": 199,
 										"character": 5,
-										"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L199"
+										"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L199"
 									}
 								],
 								"type": {
@@ -235,7 +235,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 234,
 									"character": 2,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L234"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L234"
 								}
 							],
 							"signatures": [
@@ -269,7 +269,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 234,
 											"character": 2,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L234"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L234"
 										}
 									],
 									"type": {
@@ -321,7 +321,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 311,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L311"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L311"
 								}
 							],
 							"signatures": [
@@ -344,7 +344,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 311,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L311"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L311"
 										}
 									],
 									"parameters": [
@@ -398,7 +398,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 391,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L391"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L391"
 								}
 							],
 							"signatures": [
@@ -432,7 +432,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 391,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L391"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L391"
 										}
 									],
 									"type": {
@@ -453,7 +453,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 288,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L288"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L288"
 								}
 							],
 							"signatures": [
@@ -487,7 +487,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 288,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L288"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L288"
 										}
 									],
 									"type": {
@@ -520,7 +520,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 362,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L362"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L362"
 								}
 							],
 							"signatures": [
@@ -543,7 +543,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 362,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L362"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L362"
 										}
 									],
 									"parameters": [
@@ -574,7 +574,7 @@
 															"fileName": "ShoppingCart.ts",
 															"line": 362,
 															"character": 12,
-															"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L362"
+															"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L362"
 														}
 													],
 													"signatures": [
@@ -589,7 +589,7 @@
 																	"fileName": "ShoppingCart.ts",
 																	"line": 362,
 																	"character": 12,
-																	"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L362"
+																	"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L362"
 																}
 															],
 															"parameters": [
@@ -645,7 +645,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 209,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L209"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L209"
 								}
 							],
 							"signatures": [
@@ -688,7 +688,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 209,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L209"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L209"
 										}
 									],
 									"parameters": [
@@ -751,7 +751,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 301,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L301"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L301"
 								}
 							],
 							"signatures": [
@@ -785,7 +785,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 301,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L301"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L301"
 										}
 									],
 									"parameters": [
@@ -816,7 +816,7 @@
 															"fileName": "ShoppingCart.ts",
 															"line": 301,
 															"character": 9,
-															"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L301"
+															"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L301"
 														}
 													],
 													"signatures": [
@@ -831,7 +831,7 @@
 																	"fileName": "ShoppingCart.ts",
 																	"line": 301,
 																	"character": 9,
-																	"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L301"
+																	"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L301"
 																}
 															],
 															"parameters": [
@@ -904,7 +904,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 156,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L156"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L156"
 								}
 							],
 							"signatures": [
@@ -927,7 +927,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 156,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L156"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L156"
 										}
 									],
 									"parameters": [
@@ -997,7 +997,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 333,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L333"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L333"
 								}
 							],
 							"signatures": [
@@ -1020,7 +1020,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 333,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L333"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L333"
 										}
 									],
 									"parameters": [
@@ -1084,7 +1084,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 374,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L374"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L374"
 								}
 							],
 							"signatures": [
@@ -1107,7 +1107,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 374,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L374"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L374"
 										}
 									],
 									"parameters": [
@@ -1138,7 +1138,7 @@
 															"fileName": "ShoppingCart.ts",
 															"line": 375,
 															"character": 6,
-															"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L375"
+															"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L375"
 														}
 													],
 													"signatures": [
@@ -1153,7 +1153,7 @@
 																	"fileName": "ShoppingCart.ts",
 																	"line": 375,
 																	"character": 6,
-																	"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L375"
+																	"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L375"
 																}
 															],
 															"parameters": [
@@ -1232,7 +1232,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 272,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L272"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L272"
 								}
 							],
 							"signatures": [
@@ -1266,7 +1266,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 272,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L272"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L272"
 										}
 									],
 									"type": {
@@ -1305,7 +1305,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 280,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L280"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L280"
 								}
 							],
 							"signatures": [
@@ -1339,7 +1339,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 280,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L280"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L280"
 										}
 									],
 									"type": {
@@ -1360,7 +1360,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 264,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L264"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L264"
 								}
 							],
 							"signatures": [
@@ -1394,7 +1394,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 264,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L264"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L264"
 										}
 									],
 									"type": {
@@ -1435,7 +1435,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 244,
 									"character": 8,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L244"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L244"
 								}
 							],
 							"signatures": [
@@ -1458,7 +1458,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 244,
 											"character": 8,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L244"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L244"
 										}
 									],
 									"typeParameter": [
@@ -1591,7 +1591,7 @@
 							"fileName": "ShoppingCart.ts",
 							"line": 46,
 							"character": 21,
-							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L46"
+							"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L46"
 						}
 					],
 					"typeParameters": [
@@ -1627,7 +1627,7 @@
 							"fileName": "ShoppingCart.ts",
 							"line": 17,
 							"character": 12,
-							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L17"
+							"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L17"
 						}
 					],
 					"typeParameters": [
@@ -1689,7 +1689,7 @@
 							"fileName": "ShoppingCart.ts",
 							"line": 25,
 							"character": 12,
-							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L25"
+							"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L25"
 						}
 					],
 					"typeParameters": [
@@ -1735,7 +1735,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 29,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L29"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L29"
 										}
 									],
 									"type": {
@@ -1778,7 +1778,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 33,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L33"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L33"
 										}
 									],
 									"type": {
@@ -1850,7 +1850,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 39,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L39"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L39"
 										}
 									],
 									"type": {
@@ -1897,7 +1897,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 25,
 									"character": 58,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L25"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L25"
 								}
 							]
 						}
@@ -1924,7 +1924,7 @@
 					"fileName": "ShoppingCart.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L1"
+					"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L1"
 				}
 			]
 		},
@@ -1961,7 +1961,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 324,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L324"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L324"
 								}
 							],
 							"signatures": [
@@ -1984,7 +1984,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 324,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L324"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L324"
 										}
 									],
 									"typeParameter": [
@@ -2099,7 +2099,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 190,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L190"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L190"
 								}
 							],
 							"signatures": [
@@ -2133,7 +2133,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 190,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L190"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L190"
 										}
 									],
 									"type": {
@@ -2166,7 +2166,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 226,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L226"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L226"
 								}
 							],
 							"signatures": [
@@ -2189,7 +2189,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 226,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L226"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L226"
 										}
 									],
 									"parameters": [
@@ -2232,7 +2232,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 209,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L209"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L209"
 								}
 							],
 							"signatures": [
@@ -2255,7 +2255,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 209,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L209"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L209"
 										}
 									],
 									"parameters": [
@@ -2298,7 +2298,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 256,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L256"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L256"
 								}
 							],
 							"signatures": [
@@ -2321,7 +2321,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 256,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L256"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L256"
 										}
 									],
 									"parameters": [
@@ -2363,7 +2363,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 244,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L244"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L244"
 								}
 							],
 							"signatures": [
@@ -2386,7 +2386,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 244,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L244"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L244"
 										}
 									],
 									"parameters": [
@@ -2428,7 +2428,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 174,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L174"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L174"
 								}
 							],
 							"signatures": [
@@ -2462,7 +2462,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 174,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L174"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L174"
 										}
 									],
 									"type": {
@@ -2498,7 +2498,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 182,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L182"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L182"
 								}
 							],
 							"signatures": [
@@ -2532,7 +2532,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 182,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L182"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L182"
 										}
 									],
 									"type": {
@@ -2553,7 +2553,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 157,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L157"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L157"
 								}
 							],
 							"signatures": [
@@ -2587,7 +2587,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 157,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L157"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L157"
 										}
 									],
 									"type": {
@@ -2639,7 +2639,7 @@
 							"fileName": "ShoppingCartItem.ts",
 							"line": 74,
 							"character": 13,
-							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L74"
+							"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L74"
 						}
 					],
 					"typeParameters": [
@@ -2675,7 +2675,7 @@
 							"fileName": "ShoppingCartItem.ts",
 							"line": 56,
 							"character": 12,
-							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L56"
+							"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L56"
 						}
 					],
 					"typeParameters": [
@@ -2733,7 +2733,7 @@
 							"fileName": "ShoppingCartItem.ts",
 							"line": 35,
 							"character": 12,
-							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L35"
+							"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L35"
 						}
 					],
 					"type": {
@@ -2766,7 +2766,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 40,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L40"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L40"
 										}
 									],
 									"type": {
@@ -2795,7 +2795,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 50,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L50"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L50"
 										}
 									],
 									"type": {
@@ -2824,7 +2824,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 45,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L45"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L45"
 										}
 									],
 									"type": {
@@ -2848,7 +2848,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 35,
 									"character": 34,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L35"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L35"
 								}
 							]
 						}
@@ -2873,7 +2873,7 @@
 							"fileName": "ShoppingCartItem.ts",
 							"line": 12,
 							"character": 12,
-							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L12"
+							"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L12"
 						}
 					],
 					"typeParameters": [
@@ -2913,7 +2913,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 21,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L21"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L21"
 										}
 									],
 									"type": {
@@ -2940,7 +2940,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 16,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L16"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L16"
 										}
 									],
 									"type": {
@@ -2967,7 +2967,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 25,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L25"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L25"
 										}
 									],
 									"type": {
@@ -2997,7 +2997,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 29,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L29"
+											"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L29"
 										}
 									],
 									"type": {
@@ -3022,7 +3022,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 12,
 									"character": 47,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L12"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L12"
 								}
 							]
 						}
@@ -3039,7 +3039,7 @@
 							"fileName": "ShoppingCartItem.ts",
 							"line": 369,
 							"character": 16,
-							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L369"
+							"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L369"
 						}
 					],
 					"signatures": [
@@ -3073,7 +3073,7 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 369,
 									"character": 16,
-									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L369"
+									"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L369"
 								}
 							],
 							"typeParameter": [
@@ -3161,7 +3161,7 @@
 					"fileName": "ShoppingCartItem.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L1"
+					"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCartItem.ts#L1"
 				}
 			]
 		},
@@ -3176,7 +3176,7 @@
 					"fileName": "index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/index.ts#L1"
+					"url": "https://github.com/sreed17/shoppingcart/blob/bea1116/src/index.ts#L1"
 				}
 			]
 		}

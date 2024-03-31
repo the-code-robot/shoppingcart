@@ -29,7 +29,7 @@ Represents the parameters required to create a shopping cart item.
 
 #### Defined in
 
-[ShoppingCart.ts:17](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L17)
+[ShoppingCart.ts:17](https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L17)
 
 ___
 
@@ -55,4 +55,4 @@ Represents the parameters required to initialize a shopping cart.
 
 #### Defined in
 
-[ShoppingCart.ts:25](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L25)
+[ShoppingCart.ts:25](https://github.com/sreed17/shoppingcart/blob/bea1116/src/ShoppingCart.ts#L25)
