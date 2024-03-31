@@ -4,7 +4,8 @@
 		"**/*.spec.ts",
 		"**/*.test.ts",
 		"**/*.test.tsx",
-		"**/node_modules/**"
+		"**/node_modules/**",
+		"**/README.md"
 	],
 	"out": "docs",
 	"json": "docs/typedoc_documentation.json",
