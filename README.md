@@ -245,10 +245,7 @@ const persistConfig: Partial<IPersistanceConfig> = {
 };
 ```
 
-````
-
 This documentation provides detailed information about the usage of the `generateShoppingCartContextProvider` function, including its props, interfaces, and an example of how to configure persistence settings for the shopping cart.
-
 
 ## Release
 
@@ -272,7 +269,7 @@ This project uses semantic-release, commitizen, and cz-conventional-changelog to
 
 ```bash
 npm run commit
-````
+```
 
 ## Contributing
 
