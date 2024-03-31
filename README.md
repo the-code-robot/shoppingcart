@@ -180,6 +180,76 @@ cart.map((cartItem)=>{
 | `total_discount`  | The discount applied to the total price of the product. |
 | `aggregate_price` | The total price of the item after applying discounts.   |
 
+#### ShoppingCartProvider
+
+This provider manages the state of the shopping cart and provides access to it throughout the application.
+
+```jsx
+import { ShoppingCartProvider, useShoppingCart } from "./ShoppingCart";
+
+// Use the provider in your application
+function App() {
+	return (
+		<ShoppingCartProvider onCheckout={handleCheckout} persist={persistConfig}>
+			{/* Your application components */}
+		</ShoppingCartProvider>
+	);
+}
+```
+
+By default persistance is `disabled` and the storage is set to an instance of `LocalStoragePersistence` which uses localstorage api to persist data. You can add your own peristance `storage` by implementing `IStorage` interface.
+
+##### Props
+
+###### `PropType<ProductType>`
+
+| Name           | Type                                        | Description                                                                                                                                    |
+| -------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| `onCheckout`   | `(cart: ShoppingCart<ProductType>) => void` | Optional callback function to handle the checkout process. This function is called when the `checkout` method is invoked on the shopping cart. |
+| `initialItems` | `ShoppingCartItem<ProductType>[]`           | Initial values for the cart items. These items will be used to initialize the shopping cart.                                                   |
+| `persist`      | `Partial<IPersistanceConfig> \| null`       | Persistence configuration for the shopping cart. It can include options to configure storage, disable persistence, or clear data on reload.    |
+
+### `IPersistanceConfig`
+
+| Name              | Type       | Default                   | Description                                                                                                  |
+| ----------------- | ---------- | ------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `storage`         | `IStorage` | `LocalStoragePersistence` | The storage mechanism to use for persisting shopping cart data.                                              |
+| `disabled`        | `boolean`  | `true`                    | If set to `true`, persistence will be disabled, and shopping cart data will not be stored.                   |
+| `clear_on_reload` | `boolean`  | `false`                   | If set to `true`, shopping cart data will be cleared from storage when the application reloads or refreshes. |
+
+##### Interfaces
+
+###### `IStorage`
+
+An interface defining methods for storing and retrieving shopping cart data.
+
+| Method  | Description                         |
+| ------- | ----------------------------------- |
+| `save`  | Saves the provided data to storage. |
+| `load`  | Retrieves data from storage.        |
+| `clear` | Clears data from storage.           |
+
+###### `defaultPersistanceConfig`
+
+The default persistence configuration for the shopping cart.
+
+###### Example
+
+Here's an example of configuring the persistence settings for the shopping cart:
+
+```jsx
+const persistConfig: Partial<IPersistanceConfig> = {
+    disabled: false,
+    clear_on_reload: true,
+    storage: new LocalStoragePersistence("custom_shopping_cart"),
+};
+```
+
+````
+
+This documentation provides detailed information about the usage of the `generateShoppingCartContextProvider` function, including its props, interfaces, and an example of how to configure persistence settings for the shopping cart.
+
+
 ## Release
 
 For detailed release notes, please see [CHANGELOG.md](https://github.com/sreed17/shoppingcart/blob/master/docs/CHANGELOG.md).
@@ -202,7 +272,7 @@ This project uses semantic-release, commitizen, and cz-conventional-changelog to
 
 ```bash
 npm run commit
-```
+````
 
 ## Contributing
 

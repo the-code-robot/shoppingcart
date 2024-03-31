@@ -1,11 +1,11 @@
-shoppingcart / [Exports](modules.md)
+@sreed17/shoppingcart / [Exports](modules.md)
 
-<h1 style="text-align:center">shoppingcart</h1>
+<h1 align="center">@sreed17/shoppingcart</h1>
 <hr/>
 
-<p style="text-align:center">Effortlessly integrate a fully customizable shopping cart into your React applications with React Shopping Cart—type-safe, flexible, and ready to streamline your e-commerce development workflow!</p>
+<p align="center">Effortlessly integrate a fully customizable shopping cart into your React applications with React Shopping Cart—type-safe, flexible, and ready to streamline your e-commerce development workflow!</p>
 
-The `shoppingcart` library empowers developers to effortlessly integrate a shopping cart functionality into their React applications with utmost flexibility and type safety. With a single function call, you can **_generate a fully functional shopping cart context, provider, and hook tailored to your product types_**.
+The `@sreed17/shoppingcart` library empowers developers to effortlessly integrate a shopping cart functionality into their React applications with utmost flexibility and type safety. You can **_generate a fully functional shopping cart context, provider, and hook tailored to your product types_**.
 
 ## Features
 
@@ -26,9 +26,9 @@ Interact with the shopping cart state in a type-safe manner. Utilize the provide
 You can install shoppingcart using npm or yarn:
 
 ```bash
-npm install shoppingcart
+npm install @sreed17/shoppingcart
 # or
-yarn add shoppingcart
+yarn add @sreed17/shoppingcart
 ```
 
 ## Usage
@@ -40,13 +40,13 @@ To integrate `shoppingcart` into your React application, follow these steps:
 First, install the `shoppingcart` package via npm or yarn:
 
 ```bash
-npm install shoppingcart
+npm install @sreed17/shoppingcart
 ```
 
 or
 
 ```bash
-yarn add shoppingcart
+yarn add @sreed17/shoppingcart
 ```
 
 ### 2. Usage
@@ -60,7 +60,7 @@ yarn add shoppingcart
  */
 
 // import shoppingCart function (default) from shoppingcart
-import shoppingCart from "shoppingcart";
+import shoppingCart from "@sreed17/shoppingcart";
 
 // Define your product type
 interface MyProductType {
@@ -182,6 +182,75 @@ cart.map((cartItem)=>{
 | `total_discount`  | The discount applied to the total price of the product. |
 | `aggregate_price` | The total price of the item after applying discounts.   |
 
+#### ShoppingCartProvider
+
+This provider manages the state of the shopping cart and provides access to it throughout the application.
+
+```jsx
+import { ShoppingCartProvider, useShoppingCart } from "./ShoppingCart";
+
+// Use the provider in your application
+function App() {
+	return (
+		<ShoppingCartProvider onCheckout={handleCheckout} persist={persistConfig}>
+			{/* Your application components */}
+		</ShoppingCartProvider>
+	);
+}
+```
+
+By default persistance is `disabled` and the storage is set to an instance of `LocalStoragePersistence` which uses localstorage api to persist data. You can add your own peristance `storage` by implementing `IStorage` interface.
+
+##### Props
+
+###### `PropType<ProductType>`
+
+| Name           | Type                                        | Description                                                                                                                                    |
+| -------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| `onCheckout`   | `(cart: ShoppingCart<ProductType>) => void` | Optional callback function to handle the checkout process. This function is called when the `checkout` method is invoked on the shopping cart. |
+| `initialItems` | `ShoppingCartItem<ProductType>[]`           | Initial values for the cart items. These items will be used to initialize the shopping cart.                                                   |
+| `persist`      | `Partial<IPersistanceConfig> \| null`       | Persistence configuration for the shopping cart. It can include options to configure storage, disable persistence, or clear data on reload.    |
+
+### `IPersistanceConfig`
+
+| Name              | Type       | Default                   | Description                                                                                                  |
+| ----------------- | ---------- | ------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `storage`         | `IStorage` | `LocalStoragePersistence` | The storage mechanism to use for persisting shopping cart data.                                              |
+| `disabled`        | `boolean`  | `true`                    | If set to `true`, persistence will be disabled, and shopping cart data will not be stored.                   |
+| `clear_on_reload` | `boolean`  | `false`                   | If set to `true`, shopping cart data will be cleared from storage when the application reloads or refreshes. |
+
+##### Interfaces
+
+###### `IStorage`
+
+An interface defining methods for storing and retrieving shopping cart data.
+
+| Method  | Description                         |
+| ------- | ----------------------------------- |
+| `save`  | Saves the provided data to storage. |
+| `load`  | Retrieves data from storage.        |
+| `clear` | Clears data from storage.           |
+
+###### `defaultPersistanceConfig`
+
+The default persistence configuration for the shopping cart.
+
+###### Example
+
+Here's an example of configuring the persistence settings for the shopping cart:
+
+```jsx
+const persistConfig: Partial<IPersistanceConfig> = {
+    disabled: false,
+    clear_on_reload: true,
+    storage: new LocalStoragePersistence("custom_shopping_cart"),
+};
+```
+
+````
+
+This documentation provides detailed information about the usage of the `generateShoppingCartContextProvider` function, including its props, interfaces, and an example of how to configure persistence settings for the shopping cart.
+
 ## Release
 
 For detailed release notes, please see [CHANGELOG.md](https://github.com/sreed17/shoppingcart/blob/master/docs/CHANGELOG.md).
@@ -204,7 +273,7 @@ This project uses semantic-release, commitizen, and cz-conventional-changelog to
 
 ```bash
 npm run commit
-```
+````
 
 ## Contributing
 

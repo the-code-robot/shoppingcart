@@ -16,8 +16,8 @@
  *  // Definition of you product type
  * }
  *
- * const _ = shoppingCart<YourProductType>();
- * export default _;
+ * export const {ShoppingCartProvider, useShoppingCart} = shoppingCart<YourProductType>();
+ *
  *
  *
  * // <your-file>.tsx
@@ -41,6 +41,11 @@
 import generateShoppingCartContext from "./ShoppingCartContext";
 import generateShoppingCartContextProvider from "./ShoppingCartProvider";
 import generateShoppingCartHook from "./useShoppingCartContext";
+/**
+ * Export IStorage interface ans LocalStoragePersistance to support customizing persistance-
+ * behaviour.
+ */
+export { IStorage, LocalStoragePersistence } from "./Persistance";
 
 function shoppingCart<ProductType extends object>() {
 	// Generate the shopping cart context
