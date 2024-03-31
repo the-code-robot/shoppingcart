@@ -11,6 +11,7 @@ import { ShoppingCartItem, isShoppingCartItem } from "./ShoppingCartItem";
 
 export interface PropType<T extends object> extends PropsWithChildren {
 	onCheckout?: (cart: ShoppingCart<T>) => void;
+	initialItems?: ShoppingCartItem<T>[];
 }
 
 export default function generateShoppingCartContextProvider<
@@ -18,7 +19,7 @@ export default function generateShoppingCartContextProvider<
 >(
 	Context_: Context<IShoppingCartContext<ProductType> | null>,
 ): FC<PropType<ProductType>> {
-	return ({ children, onCheckout }: PropType<ProductType>) => {
+	return ({ children, onCheckout, initialItems }: PropType<ProductType>) => {
 		const [cart, setCart] = useState<ShoppingCart<ProductType> | null>(null);
 		const [is_loading, setLoading] = useState(true);
 
@@ -42,6 +43,7 @@ export default function generateShoppingCartContextProvider<
 			const shoppingCart = new ShoppingCart<ProductType>({
 				onChange: updateCart,
 				onCheckout,
+				items: initialItems ?? undefined,
 			});
 			setCart(shoppingCart);
 			setLoading(false);
@@ -49,11 +51,6 @@ export default function generateShoppingCartContextProvider<
 
 		const value = { cart, is_loading };
 
-		return (
-			<Context_.Provider value={value}>
-				<>This is atleast rendering</>
-				{children}
-			</Context_.Provider>
-		);
+		return <Context_.Provider value={value}>{children}</Context_.Provider>;
 	};
 }
