@@ -1,0 +1,3557 @@
+{
+	"id": 0,
+	"name": "shoppingcart",
+	"variant": "project",
+	"kind": 1,
+	"flags": {},
+	"children": [
+		{
+			"id": 16,
+			"name": "ShoppingCart",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 25,
+					"name": "default",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Represents a shopping cart that can hold items of a specific product type."
+							}
+						],
+						"blockTags": [
+							{
+								"tag": "@typeparam",
+								"content": [
+									{
+										"kind": "text",
+										"text": "T The type of product items that the shopping cart can hold."
+									}
+								]
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 26,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 384,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L384"
+								}
+							],
+							"signatures": [
+								{
+									"id": 27,
+									"name": "new default",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Creates a new instance of the ShoppingCart class."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 384,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L384"
+										}
+									],
+									"typeParameter": [
+										{
+											"id": 28,
+											"name": "ProductType",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 29,
+											"name": "args",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "The parameters to initialize the shopping cart."
+													}
+												]
+											},
+											"type": {
+												"type": "reference",
+												"target": 19,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": 28,
+														"name": "ProductType",
+														"package": "shoppingcart",
+														"qualifiedName": "default.ProductType",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "ICartParameters",
+												"package": "shoppingcart"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 25,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 28,
+												"name": "ProductType",
+												"package": "shoppingcart",
+												"qualifiedName": "default.ProductType",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "default",
+										"package": "shoppingcart"
+									}
+								}
+							]
+						},
+						{
+							"id": 52,
+							"name": "item_count",
+							"variant": "declaration",
+							"kind": 262144,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 192,
+									"character": 5,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L192"
+								}
+							],
+							"getSignature": {
+								"id": 53,
+								"name": "item_count",
+								"variant": "signature",
+								"kind": 524288,
+								"flags": {},
+								"comment": {
+									"summary": [
+										{
+											"kind": "text",
+											"text": "Return the number of items in the the cart."
+										}
+									]
+								},
+								"sources": [
+									{
+										"fileName": "ShoppingCart.ts",
+										"line": 192,
+										"character": 5,
+										"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L192"
+									}
+								],
+								"type": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						},
+						{
+							"id": 54,
+							"name": "sub_total",
+							"variant": "declaration",
+							"kind": 262144,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 199,
+									"character": 5,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L199"
+								}
+							],
+							"getSignature": {
+								"id": 55,
+								"name": "sub_total",
+								"variant": "signature",
+								"kind": 524288,
+								"flags": {},
+								"comment": {
+									"summary": [
+										{
+											"kind": "text",
+											"text": "Return the subtotal of the items in the cart."
+										}
+									]
+								},
+								"sources": [
+									{
+										"fileName": "ShoppingCart.ts",
+										"line": 199,
+										"character": 5,
+										"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L199"
+									}
+								],
+								"type": {
+									"type": "intrinsic",
+									"name": "number"
+								}
+							}
+						},
+						{
+							"id": 96,
+							"name": "[iterator]",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 234,
+									"character": 2,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L234"
+								}
+							],
+							"signatures": [
+								{
+									"id": 97,
+									"name": "[iterator]",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Returns an iterator for iterating over all items in the shopping cart."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "An iterator that yields each ShoppingCartItem in the shopping cart."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 234,
+											"character": 2,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L234"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "node_modules/.pnpm/typescript@5.4.3/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+											"qualifiedName": "Generator"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 135,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": 28,
+														"name": "ProductType",
+														"package": "shoppingcart",
+														"qualifiedName": "default.ProductType",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "ShoppingCartItem",
+												"package": "shoppingcart"
+											},
+											{
+												"type": "intrinsic",
+												"name": "void"
+											},
+											{
+												"type": "intrinsic",
+												"name": "unknown"
+											}
+										],
+										"name": "Generator",
+										"package": "typescript"
+									}
+								}
+							]
+						},
+						{
+							"id": 74,
+							"name": "addItem",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 291,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L291"
+								}
+							],
+							"signatures": [
+								{
+									"id": 75,
+									"name": "addItem",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Adds a new item to the shopping cart or updates the quantity of an existing item if the ID matches."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 291,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L291"
+										}
+									],
+									"parameters": [
+										{
+											"id": 76,
+											"name": "arg",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "The parameters for the new item to add or update."
+													}
+												]
+											},
+											"type": {
+												"type": "reference",
+												"target": 17,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": 28,
+														"name": "ProductType",
+														"package": "shoppingcart",
+														"qualifiedName": "default.ProductType",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "ICartItemCreateParameters",
+												"package": "shoppingcart"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 94,
+							"name": "checkout",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 371,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L371"
+								}
+							],
+							"signatures": [
+								{
+									"id": 95,
+									"name": "checkout",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Initiates the checkout process by calling the onCheckout callback function, if provided."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@throws",
+												"content": [
+													{
+														"kind": "text",
+														"text": "Error if the onCheckout function is not provided."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 371,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L371"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 65,
+							"name": "clone",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 268,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L268"
+								}
+							],
+							"signatures": [
+								{
+									"id": 66,
+									"name": "clone",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Creates and returns a deep copy of the shopping cart."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "A new instance of ShoppingCart with identical items, onChange, and onCheckout properties."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 268,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L268"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 25,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 28,
+												"name": "ProductType",
+												"package": "shoppingcart",
+												"qualifiedName": "default.ProductType",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "default",
+										"package": "shoppingcart"
+									}
+								}
+							]
+						},
+						{
+							"id": 81,
+							"name": "filter",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 342,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L342"
+								}
+							],
+							"signatures": [
+								{
+									"id": 82,
+									"name": "filter",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Filters the items in the shopping cart based on the provided function."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 342,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L342"
+										}
+									],
+									"parameters": [
+										{
+											"id": 83,
+											"name": "fn",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "A function used to filter the items in the shopping cart."
+													}
+												]
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 84,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "ShoppingCart.ts",
+															"line": 342,
+															"character": 12,
+															"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L342"
+														}
+													],
+													"signatures": [
+														{
+															"id": 85,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "ShoppingCart.ts",
+																	"line": 342,
+																	"character": 12,
+																	"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L342"
+																}
+															],
+															"parameters": [
+																{
+																	"id": 86,
+																	"name": "cart_item",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"target": 135,
+																		"typeArguments": [
+																			{
+																				"type": "reference",
+																				"target": 28,
+																				"name": "ProductType",
+																				"package": "shoppingcart",
+																				"qualifiedName": "default.ProductType",
+																				"refersToTypeParameter": true
+																			}
+																		],
+																		"name": "ShoppingCartItem",
+																		"package": "shoppingcart"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "boolean"
+															}
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 56,
+							"name": "getCartItem",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 209,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L209"
+								}
+							],
+							"signatures": [
+								{
+									"id": 57,
+									"name": "getCartItem",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Retrieves a ShoppingCartItem from the shopping cart based on the specified key, which can be either a string (ID) or a number (index)."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "The ShoppingCartItem corresponding to the specified key."
+													}
+												]
+											},
+											{
+												"tag": "@throws",
+												"content": [
+													{
+														"kind": "text",
+														"text": "Error if the key is not found or if the index is out of bounds."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 209,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L209"
+										}
+									],
+									"parameters": [
+										{
+											"id": 58,
+											"name": "key",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "The key (ID or index) used to retrieve the ShoppingCartItem."
+													}
+												]
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "number"
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 135,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 28,
+												"name": "ProductType",
+												"package": "shoppingcart",
+												"qualifiedName": "default.ProductType",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "ShoppingCartItem",
+										"package": "shoppingcart"
+									}
+								}
+							]
+						},
+						{
+							"id": 67,
+							"name": "map",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 281,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L281"
+								}
+							],
+							"signatures": [
+								{
+									"id": 68,
+									"name": "map",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Maps each item in the shopping cart to another value using a mapping function."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "An array of transformed values."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 281,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L281"
+										}
+									],
+									"parameters": [
+										{
+											"id": 69,
+											"name": "fn",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "A mapping function that transforms each item's JSON representation."
+													}
+												]
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 70,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "ShoppingCart.ts",
+															"line": 281,
+															"character": 9,
+															"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L281"
+														}
+													],
+													"signatures": [
+														{
+															"id": 71,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "ShoppingCart.ts",
+																	"line": 281,
+																	"character": 9,
+																	"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L281"
+																}
+															],
+															"parameters": [
+																{
+																	"id": 72,
+																	"name": "value",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"target": {
+																			"sourceFileName": "src/ShoppingCartItem.ts",
+																			"qualifiedName": "ICartItemJSON"
+																		},
+																		"typeArguments": [
+																			{
+																				"type": "reference",
+																				"target": 28,
+																				"name": "ProductType",
+																				"package": "shoppingcart",
+																				"qualifiedName": "default.ProductType",
+																				"refersToTypeParameter": true
+																			}
+																		],
+																		"name": "ICartItemJSON",
+																		"package": "shoppingcart"
+																	}
+																},
+																{
+																	"id": 73,
+																	"name": "index",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "number"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "unknown"
+															}
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "unknown"
+										}
+									}
+								}
+							]
+						},
+						{
+							"id": 48,
+							"name": "moveItem",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 156,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L156"
+								}
+							],
+							"signatures": [
+								{
+									"id": 49,
+									"name": "moveItem",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Move the item identified by the identifier to be moved to a new index within the shopping cart."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 156,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L156"
+										}
+									],
+									"parameters": [
+										{
+											"id": 50,
+											"name": "identifier",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "Either the index of the item or its ID."
+													}
+												]
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "number"
+													}
+												]
+											}
+										},
+										{
+											"id": 51,
+											"name": "new_index",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "Index to which the item is to be moved."
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 77,
+							"name": "removeItem",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 313,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L313"
+								}
+							],
+							"signatures": [
+								{
+									"id": 78,
+									"name": "removeItem",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Removes an item from the shopping cart based on the specified key, which can be either a string (ID) or a number (index)."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 313,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L313"
+										}
+									],
+									"parameters": [
+										{
+											"id": 79,
+											"name": "arg",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "The key (ID or index) used to identify the item to remove."
+													}
+												]
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "number"
+													}
+												]
+											}
+										},
+										{
+											"id": 80,
+											"name": "quantity",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 87,
+							"name": "sort",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 354,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L354"
+								}
+							],
+							"signatures": [
+								{
+									"id": 88,
+									"name": "sort",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Sorts the items in the shopping cart based on the provided comparison function."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 354,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L354"
+										}
+									],
+									"parameters": [
+										{
+											"id": 89,
+											"name": "fn",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "A function used to compare two items in the shopping cart for sorting."
+													}
+												]
+											},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 90,
+													"name": "__type",
+													"variant": "declaration",
+													"kind": 65536,
+													"flags": {},
+													"sources": [
+														{
+															"fileName": "ShoppingCart.ts",
+															"line": 355,
+															"character": 6,
+															"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L355"
+														}
+													],
+													"signatures": [
+														{
+															"id": 91,
+															"name": "__type",
+															"variant": "signature",
+															"kind": 4096,
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "ShoppingCart.ts",
+																	"line": 355,
+																	"character": 6,
+																	"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L355"
+																}
+															],
+															"parameters": [
+																{
+																	"id": 92,
+																	"name": "cart_item_A",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"target": 135,
+																		"typeArguments": [
+																			{
+																				"type": "reference",
+																				"target": 28,
+																				"name": "ProductType",
+																				"package": "shoppingcart",
+																				"qualifiedName": "default.ProductType",
+																				"refersToTypeParameter": true
+																			}
+																		],
+																		"name": "ShoppingCartItem",
+																		"package": "shoppingcart"
+																	}
+																},
+																{
+																	"id": 93,
+																	"name": "cart_item_B",
+																	"variant": "param",
+																	"kind": 32768,
+																	"flags": {},
+																	"type": {
+																		"type": "reference",
+																		"target": 135,
+																		"typeArguments": [
+																			{
+																				"type": "reference",
+																				"target": 28,
+																				"name": "ProductType",
+																				"package": "shoppingcart",
+																				"qualifiedName": "default.ProductType",
+																				"refersToTypeParameter": true
+																			}
+																		],
+																		"name": "ShoppingCartItem",
+																		"package": "shoppingcart"
+																	}
+																}
+															],
+															"type": {
+																"type": "intrinsic",
+																"name": "number"
+															}
+														}
+													]
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 61,
+							"name": "toJSON",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 252,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L252"
+								}
+							],
+							"signatures": [
+								{
+									"id": 62,
+									"name": "toJSON",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Returns the corresponding JSON object of the shopping cart."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "An array of objects representing each ShoppingCartItem in the shopping cart."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 252,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L252"
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"target": {
+												"sourceFileName": "src/ShoppingCartItem.ts",
+												"qualifiedName": "ICartItemJSON"
+											},
+											"typeArguments": [
+												{
+													"type": "reference",
+													"target": 28,
+													"name": "ProductType",
+													"package": "shoppingcart",
+													"qualifiedName": "default.ProductType",
+													"refersToTypeParameter": true
+												}
+											],
+											"name": "ICartItemJSON",
+											"package": "shoppingcart"
+										}
+									}
+								}
+							]
+						},
+						{
+							"id": 63,
+							"name": "toString",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 260,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L260"
+								}
+							],
+							"signatures": [
+								{
+									"id": 64,
+									"name": "toString",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Returns a JSON string representing the value of the shopping cart."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "A JSON string representing the value of the shopping cart."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 260,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L260"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							]
+						},
+						{
+							"id": 59,
+							"name": "valueOf",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 244,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L244"
+								}
+							],
+							"signatures": [
+								{
+									"id": 60,
+									"name": "valueOf",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Returns the value of the shopping cart as an array of objects, each representing a ShoppingCartItem."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "An array of objects representing each ShoppingCartItem in the shopping cart."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 244,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L244"
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"target": {
+												"sourceFileName": "src/ShoppingCartItem.ts",
+												"qualifiedName": "ICartItemJSON"
+											},
+											"typeArguments": [
+												{
+													"type": "reference",
+													"target": 28,
+													"name": "ProductType",
+													"package": "shoppingcart",
+													"qualifiedName": "default.ProductType",
+													"refersToTypeParameter": true
+												}
+											],
+											"name": "ICartItemJSON",
+											"package": "shoppingcart"
+										}
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								26
+							]
+						},
+						{
+							"title": "Accessors",
+							"children": [
+								52,
+								54
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								96,
+								74,
+								94,
+								65,
+								81,
+								56,
+								67,
+								48,
+								77,
+								87,
+								61,
+								63,
+								59
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "ShoppingCart.ts",
+							"line": 46,
+							"character": 21,
+							"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L46"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 98,
+							"name": "ProductType",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					]
+				},
+				{
+					"id": 17,
+					"name": "ICartItemCreateParameters",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Represents the parameters required to create a shopping cart item."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "ShoppingCart.ts",
+							"line": 17,
+							"character": 12,
+							"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L17"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 18,
+							"name": "T",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {}
+						}
+					],
+					"type": {
+						"type": "reference",
+						"target": {
+							"sourceFileName": "node_modules/.pnpm/typescript@5.4.3/node_modules/typescript/lib/lib.es5.d.ts",
+							"qualifiedName": "Omit"
+						},
+						"typeArguments": [
+							{
+								"type": "reference",
+								"target": 124,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 18,
+										"name": "T",
+										"package": "shoppingcart",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "ICartItemParameters",
+								"package": "shoppingcart"
+							},
+							{
+								"type": "literal",
+								"value": "index"
+							}
+						],
+						"name": "Omit",
+						"package": "typescript"
+					}
+				},
+				{
+					"id": 19,
+					"name": "ICartParameters",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Represents the parameters required to initialize a shopping cart."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "ShoppingCart.ts",
+							"line": 25,
+							"character": 12,
+							"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L25"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 24,
+							"name": "ProductType",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 20,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 21,
+									"name": "items",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The initial items in the shopping cart."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 29,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L29"
+										}
+									],
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"target": 135,
+											"typeArguments": [
+												{
+													"type": "reference",
+													"target": 24,
+													"name": "ProductType",
+													"package": "shoppingcart",
+													"refersToTypeParameter": true
+												}
+											],
+											"name": "ShoppingCartItem",
+											"package": "shoppingcart"
+										}
+									}
+								},
+								{
+									"id": 22,
+									"name": "onChange",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The callback function to be called when the shopping cart changes."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 33,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L33"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "src/common_types.ts",
+											"qualifiedName": "IOnChangeCallback"
+										},
+										"typeArguments": [
+											{
+												"type": "union",
+												"types": [
+													{
+														"type": "reference",
+														"target": 25,
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": 24,
+																"name": "ProductType",
+																"package": "shoppingcart",
+																"refersToTypeParameter": true
+															}
+														],
+														"name": "ShoppingCart",
+														"package": "shoppingcart",
+														"qualifiedName": "default"
+													},
+													{
+														"type": "reference",
+														"target": 135,
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": 24,
+																"name": "ProductType",
+																"package": "shoppingcart",
+																"refersToTypeParameter": true
+															}
+														],
+														"name": "ShoppingCartItem",
+														"package": "shoppingcart"
+													}
+												]
+											}
+										],
+										"name": "IOnChangeCallback",
+										"package": "shoppingcart"
+									}
+								},
+								{
+									"id": 23,
+									"name": "onCheckout",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The callback function to be called when the checkout process is triggered."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCart.ts",
+											"line": 39,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L39"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "src/common_types.ts",
+											"qualifiedName": "IOnChangeCallback"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 25,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": 24,
+														"name": "ProductType",
+														"package": "shoppingcart",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "ShoppingCart",
+												"package": "shoppingcart",
+												"qualifiedName": "default"
+											}
+										],
+										"name": "IOnChangeCallback",
+										"package": "shoppingcart"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										21,
+										22,
+										23
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "ShoppingCart.ts",
+									"line": 25,
+									"character": 58,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L25"
+								}
+							]
+						}
+					}
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						25
+					]
+				},
+				{
+					"title": "Type Aliases",
+					"children": [
+						17,
+						19
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "ShoppingCart.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCart.ts#L1"
+				}
+			]
+		},
+		{
+			"id": 107,
+			"name": "ShoppingCartItem",
+			"variant": "declaration",
+			"kind": 2,
+			"flags": {},
+			"children": [
+				{
+					"id": 135,
+					"name": "ShoppingCartItem",
+					"variant": "declaration",
+					"kind": 128,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Represents a single item in the shopping cart.\nManages the item's details such as product, quantity, unit price, and discounts."
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 136,
+							"name": "constructor",
+							"variant": "declaration",
+							"kind": 512,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 300,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L300"
+								}
+							],
+							"signatures": [
+								{
+									"id": 137,
+									"name": "new ShoppingCartItem",
+									"variant": "signature",
+									"kind": 16384,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Constructs a new instance of ShoppingClassItem."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 300,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L300"
+										}
+									],
+									"typeParameter": [
+										{
+											"id": 138,
+											"name": "ProductType",
+											"variant": "typeParam",
+											"kind": 131072,
+											"flags": {},
+											"type": {
+												"type": "intrinsic",
+												"name": "object"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 139,
+											"name": "args",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "The parameters used to initialize the shopping cart item."
+													}
+												]
+											},
+											"type": {
+												"type": "reference",
+												"target": 124,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": 138,
+														"name": "ProductType",
+														"package": "shoppingcart",
+														"qualifiedName": "ShoppingCartItem.ProductType",
+														"refersToTypeParameter": true
+													}
+												],
+												"name": "ICartItemParameters",
+												"package": "shoppingcart"
+											}
+										},
+										{
+											"id": 140,
+											"name": "onChange",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"target": {
+													"sourceFileName": "src/common_types.ts",
+													"qualifiedName": "IOnChangeCallback"
+												},
+												"typeArguments": [
+													{
+														"type": "reference",
+														"target": 135,
+														"typeArguments": [
+															{
+																"type": "reference",
+																"target": 138,
+																"name": "ProductType",
+																"package": "shoppingcart",
+																"qualifiedName": "ShoppingCartItem.ProductType",
+																"refersToTypeParameter": true
+															}
+														],
+														"name": "ShoppingCartItem",
+														"package": "shoppingcart"
+													}
+												],
+												"name": "IOnChangeCallback",
+												"package": "shoppingcart"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 135,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 138,
+												"name": "ProductType",
+												"package": "shoppingcart",
+												"qualifiedName": "ShoppingCartItem.ProductType",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "ShoppingCartItem",
+										"package": "shoppingcart"
+									}
+								}
+							]
+						},
+						{
+							"id": 163,
+							"name": "clone",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 166,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L166"
+								}
+							],
+							"signatures": [
+								{
+									"id": 164,
+									"name": "clone",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Clones the current shopping cart item."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "A new instance of ShoppingClassItem with the same parameters as the current item."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 166,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L166"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 135,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 138,
+												"name": "ProductType",
+												"package": "shoppingcart",
+												"qualifiedName": "ShoppingCartItem.ProductType",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "ShoppingCartItem",
+										"package": "shoppingcart"
+									}
+								}
+							]
+						},
+						{
+							"id": 168,
+							"name": "decrementQuantity",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 202,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L202"
+								}
+							],
+							"signatures": [
+								{
+									"id": 169,
+									"name": "decrementQuantity",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Decrements the quantity of the item by the specified amount."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 202,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L202"
+										}
+									],
+									"parameters": [
+										{
+											"id": 170,
+											"name": "decrement_size",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "The amount by which to decrement the quantity."
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											},
+											"defaultValue": "1"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 165,
+							"name": "incrementQuantity",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 185,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L185"
+								}
+							],
+							"signatures": [
+								{
+									"id": 166,
+									"name": "incrementQuantity",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Increments the quantity of the item by the specified amount."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 185,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L185"
+										}
+									],
+									"parameters": [
+										{
+											"id": 167,
+											"name": "increment_size",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "The amount by which to increment the quantity."
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											},
+											"defaultValue": "1"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 174,
+							"name": "setIndex",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 232,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L232"
+								}
+							],
+							"signatures": [
+								{
+									"id": 175,
+									"name": "setIndex",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Change the index(position) of the item in the shopping cart."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 232,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L232"
+										}
+									],
+									"parameters": [
+										{
+											"id": 176,
+											"name": "new_index",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "The new index of the item in the shopping cart."
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 171,
+							"name": "setTotalDiscount",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 220,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L220"
+								}
+							],
+							"signatures": [
+								{
+									"id": 172,
+									"name": "setTotalDiscount",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Sets the total discount applied to the item."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 220,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L220"
+										}
+									],
+									"parameters": [
+										{
+											"id": 173,
+											"name": "total_discount",
+											"variant": "param",
+											"kind": 32768,
+											"flags": {},
+											"comment": {
+												"summary": [
+													{
+														"kind": "text",
+														"text": "The total discount to apply."
+													}
+												]
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							]
+						},
+						{
+							"id": 159,
+							"name": "toJSON",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 150,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L150"
+								}
+							],
+							"signatures": [
+								{
+									"id": 160,
+									"name": "toJSON",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Returns the JSON representation, the ShoppingCartItem as an object consisting of all its public properties."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "An object representing the ShoppingCartItem with its public properties."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 150,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L150"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "src/ShoppingCartItem.ts",
+											"qualifiedName": "ICartItemJSON"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 138,
+												"name": "ProductType",
+												"package": "shoppingcart",
+												"qualifiedName": "ShoppingCartItem.ProductType",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "ICartItemJSON",
+										"package": "shoppingcart"
+									}
+								}
+							]
+						},
+						{
+							"id": 161,
+							"name": "toString",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 158,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L158"
+								}
+							],
+							"signatures": [
+								{
+									"id": 162,
+									"name": "toString",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Returns the serialized version of the instance as a JSON string."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "A JSON string representing the serialized version of the instance."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 158,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L158"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							]
+						},
+						{
+							"id": 157,
+							"name": "valueOf",
+							"variant": "declaration",
+							"kind": 2048,
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 134,
+									"character": 1,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L134"
+								}
+							],
+							"signatures": [
+								{
+									"id": 158,
+									"name": "valueOf",
+									"variant": "signature",
+									"kind": 4096,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Returns the ShoppingCartItem as an object consisting of all its public properties."
+											}
+										],
+										"blockTags": [
+											{
+												"tag": "@returns",
+												"content": [
+													{
+														"kind": "text",
+														"text": "An object representing the ShoppingCartItem with its public properties."
+													}
+												]
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 134,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L134"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": {
+											"sourceFileName": "src/ShoppingCartItem.ts",
+											"qualifiedName": "ICartItemJSON"
+										},
+										"typeArguments": [
+											{
+												"type": "reference",
+												"target": 138,
+												"name": "ProductType",
+												"package": "shoppingcart",
+												"qualifiedName": "ShoppingCartItem.ProductType",
+												"refersToTypeParameter": true
+											}
+										],
+										"name": "ICartItemJSON",
+										"package": "shoppingcart"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"children": [
+								136
+							]
+						},
+						{
+							"title": "Methods",
+							"children": [
+								163,
+								168,
+								165,
+								174,
+								171,
+								159,
+								161,
+								157
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "ShoppingCartItem.ts",
+							"line": 72,
+							"character": 13,
+							"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L72"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 197,
+							"name": "ProductType",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {},
+							"type": {
+								"type": "intrinsic",
+								"name": "object"
+							}
+						}
+					]
+				},
+				{
+					"id": 124,
+					"name": "ICartItemParameters",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Represents the parameters for creating a shopping cart item."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "ShoppingCartItem.ts",
+							"line": 55,
+							"character": 12,
+							"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L55"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 125,
+							"name": "ProductType",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {}
+						}
+					],
+					"type": {
+						"type": "intersection",
+						"types": [
+							{
+								"type": "reference",
+								"target": 112,
+								"typeArguments": [
+									{
+										"type": "reference",
+										"target": 125,
+										"name": "ProductType",
+										"package": "shoppingcart",
+										"refersToTypeParameter": true
+									}
+								],
+								"name": "IRequiredParameters",
+								"package": "shoppingcart"
+							},
+							{
+								"type": "reference",
+								"target": 119,
+								"name": "IOptionalParameters",
+								"package": "shoppingcart"
+							}
+						]
+					}
+				},
+				{
+					"id": 119,
+					"name": "IOptionalParameters",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Represents the optional parameters for creating a shopping cart item."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "ShoppingCartItem.ts",
+							"line": 34,
+							"character": 12,
+							"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L34"
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 120,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 121,
+									"name": "quantity",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The quantity of the product.\nDefault: 1"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 39,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L39"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 123,
+									"name": "total_discount",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The discount applied to the total price of the product.\nDefault: 0"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 49,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L49"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 122,
+									"name": "unit_discount",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {
+										"isOptional": true
+									},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The discount applied to each unit of the product.\nDefault: 0"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 44,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L44"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										121,
+										123,
+										122
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 34,
+									"character": 34,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L34"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 112,
+					"name": "IRequiredParameters",
+					"variant": "declaration",
+					"kind": 2097152,
+					"flags": {},
+					"comment": {
+						"summary": [
+							{
+								"kind": "text",
+								"text": "Represents the required parameters for creating a shopping cart item."
+							}
+						]
+					},
+					"sources": [
+						{
+							"fileName": "ShoppingCartItem.ts",
+							"line": 11,
+							"character": 12,
+							"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L11"
+						}
+					],
+					"typeParameters": [
+						{
+							"id": 118,
+							"name": "ProductType",
+							"variant": "typeParam",
+							"kind": 131072,
+							"flags": {}
+						}
+					],
+					"type": {
+						"type": "reflection",
+						"declaration": {
+							"id": 113,
+							"name": "__type",
+							"variant": "declaration",
+							"kind": 65536,
+							"flags": {},
+							"children": [
+								{
+									"id": 115,
+									"name": "id",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The unique identifier for the product. Used for hashing"
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 20,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L20"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								},
+								{
+									"id": 114,
+									"name": "index",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "Index (position) of the item in the shopping cart."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 15,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L15"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 116,
+									"name": "product",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The product details."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 24,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L24"
+										}
+									],
+									"type": {
+										"type": "reference",
+										"target": 118,
+										"name": "ProductType",
+										"package": "shoppingcart",
+										"refersToTypeParameter": true
+									}
+								},
+								{
+									"id": 117,
+									"name": "unit_price",
+									"variant": "declaration",
+									"kind": 1024,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The price per unit of the product."
+											}
+										]
+									},
+									"sources": [
+										{
+											"fileName": "ShoppingCartItem.ts",
+											"line": 28,
+											"character": 1,
+											"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L28"
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"groups": [
+								{
+									"title": "Properties",
+									"children": [
+										115,
+										114,
+										116,
+										117
+									]
+								}
+							],
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 11,
+									"character": 47,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L11"
+								}
+							]
+						}
+					}
+				},
+				{
+					"id": 108,
+					"name": "isShoppingCartItem",
+					"variant": "declaration",
+					"kind": 64,
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "ShoppingCartItem.ts",
+							"line": 345,
+							"character": 16,
+							"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L345"
+						}
+					],
+					"signatures": [
+						{
+							"id": 109,
+							"name": "isShoppingCartItem",
+							"variant": "signature",
+							"kind": 4096,
+							"flags": {},
+							"comment": {
+								"summary": [
+									{
+										"kind": "text",
+										"text": "Check whether a given argument is an instance of ShoppingCartItem."
+									}
+								],
+								"blockTags": [
+									{
+										"tag": "@returns",
+										"content": [
+											{
+												"kind": "text",
+												"text": "A boolean indicating whether the argument is an instance of ShoppingCartItem."
+											}
+										]
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "ShoppingCartItem.ts",
+									"line": 345,
+									"character": 16,
+									"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L345"
+								}
+							],
+							"typeParameter": [
+								{
+									"id": 110,
+									"name": "T",
+									"variant": "typeParam",
+									"kind": 131072,
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "object"
+									}
+								}
+							],
+							"parameters": [
+								{
+									"id": 111,
+									"name": "arg",
+									"variant": "param",
+									"kind": 32768,
+									"flags": {},
+									"comment": {
+										"summary": [
+											{
+												"kind": "text",
+												"text": "The argument to check."
+											}
+										]
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "unknown"
+									}
+								}
+							],
+							"type": {
+								"type": "predicate",
+								"name": "arg",
+								"asserts": false,
+								"targetType": {
+									"type": "reference",
+									"target": 135,
+									"typeArguments": [
+										{
+											"type": "reference",
+											"target": 110,
+											"name": "T",
+											"package": "shoppingcart",
+											"refersToTypeParameter": true
+										}
+									],
+									"name": "ShoppingCartItem",
+									"package": "shoppingcart"
+								}
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"children": [
+						135
+					]
+				},
+				{
+					"title": "Type Aliases",
+					"children": [
+						124,
+						119,
+						112
+					]
+				},
+				{
+					"title": "Functions",
+					"children": [
+						108
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "ShoppingCartItem.ts",
+					"line": 1,
+					"character": 0,
+					"url": "https://github.com/sreed17/shoppingcart/blob/8289477/src/ShoppingCartItem.ts#L1"
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"children": [
+				16,
+				107
+			]
+		}
+	],
+	"packageName": "shoppingcart",
+	"readme": [
+		{
+			"kind": "text",
+			"text": "# shoppingcart\r\n\r\nA basic react library that provides shopping card context, provider and hooks.\r\n\r\n![Brief Overview](https://github.com/sreed17/shoppingcart/blob/master/lib_overview.png?raw=true)\r\n\r\n## Installation\r\n\r\nYou can install shoppingcart using npm or yarn:\r\n\r\n"
+		},
+		{
+			"kind": "code",
+			"text": "```bash\r\nnpm install shoppingcart\r\n# or\r\nyarn add shoppingcart\r\n```"
+		},
+		{
+			"kind": "text",
+			"text": "\r\n\r\n## Usage\r\n\r\nTo integrate "
+		},
+		{
+			"kind": "code",
+			"text": "`shoppingcart`"
+		},
+		{
+			"kind": "text",
+			"text": " into your React application, follow these steps:\r\n\r\n### 1. Installation\r\n\r\nFirst, install the "
+		},
+		{
+			"kind": "code",
+			"text": "`shoppingcart`"
+		},
+		{
+			"kind": "text",
+			"text": " package via npm or yarn:\r\n\r\n"
+		},
+		{
+			"kind": "code",
+			"text": "```bash\r\nnpm install shoppingcart\r\n```"
+		},
+		{
+			"kind": "text",
+			"text": "\r\n\r\nor\r\n\r\n"
+		},
+		{
+			"kind": "code",
+			"text": "```bash\r\nyarn add shoppingcart\r\n```"
+		},
+		{
+			"kind": "text",
+			"text": "\r\n\r\n### 2. Usage\r\n\r\n!To be updated\r\n\r\n## Release\r\n\r\nFor detailed release notes, please see [CHANGELOG.md](https://github.com/sreed17/shoppingcart/blob/master/docs/CHANGELOG.md).\r\n\r\n## Contributing\r\n\r\nThank you for considering contributing to this project! Contributions are welcome and encouraged.\r\n\r\n### How to Contribute\r\n\r\nIf you have any ideas, suggestions, or bug fixes, please follow these steps:\r\n\r\n1. **Open an Issue**: If you encounter a bug, have a feature request, or want to suggest an improvement, please open an issue on [GitHub](https://github.com/sreed17/shoppingcart/issues) to discuss it.\r\n\r\n2. **Submit a Pull Request**: If you'd like to contribute directly, fork the repository, make your changes, and submit a pull request. Please ensure your pull request follows our [contribution guidelines](https://github.com/sreed17/shoppingcart/blob/master/CONTRIBUTING.md) and adheres to our coding standards.\r\n\r\n### Development Workflow\r\n\r\nThis project uses semantic-release, commitizen, and cz-conventional-changelog to automate versioning and generate changelogs. To commit changes, please use the following command:\r\n\r\n"
+		},
+		{
+			"kind": "code",
+			"text": "```bash\r\nnpm run commit\r\n```"
+		},
+		{
+			"kind": "text",
+			"text": "\r\n\r\n## Contributing\r\n\r\nContributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request on [GitHub](https://github.com/sreed17/shoppingcart).\r\n\r\n!IMPORTANT: The project uses semantic-release and commitizen with cz-conventional-changelog. Use "
+		},
+		{
+			"kind": "code",
+			"text": "`npm run commit`"
+		},
+		{
+			"kind": "text",
+			"text": "to commit changes before pushing changes.\r\n\r\n### Code of Conduct\r\n\r\nPlease note that this project is governed by a [Code of Conduct](https://github.com/sreed17/shoppingcart/blob/master/CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.\r\n\r\nWe appreciate your contributions to making this project better for everyone!\r\n\r\n## License\r\n\r\nThis project is licensed under the MIT License - see the [LICENSE](https://github.com/sreed17/shoppingcart/blob/master/LICENSE) file for details."
+		}
+	],
+	"symbolIdMap": {
+		"16": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": ""
+		},
+		"17": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "ICartItemCreateParameters"
+		},
+		"18": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "T"
+		},
+		"19": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "ICartParameters"
+		},
+		"20": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type"
+		},
+		"21": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type.items"
+		},
+		"22": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type.onChange"
+		},
+		"23": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type.onCheckout"
+		},
+		"24": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "ProductType"
+		},
+		"25": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default"
+		},
+		"26": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.__constructor"
+		},
+		"27": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default"
+		},
+		"28": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.ProductType"
+		},
+		"29": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "args"
+		},
+		"48": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.moveItem"
+		},
+		"49": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.moveItem"
+		},
+		"50": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "identifier"
+		},
+		"51": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "new_index"
+		},
+		"52": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.item_count"
+		},
+		"53": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.item_count"
+		},
+		"54": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.sub_total"
+		},
+		"55": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.sub_total"
+		},
+		"56": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.getCartItem"
+		},
+		"57": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.getCartItem"
+		},
+		"58": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "key"
+		},
+		"59": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.valueOf"
+		},
+		"60": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.valueOf"
+		},
+		"61": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.toJSON"
+		},
+		"62": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.toJSON"
+		},
+		"63": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.toString"
+		},
+		"64": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.toString"
+		},
+		"65": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.clone"
+		},
+		"66": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.clone"
+		},
+		"67": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.map"
+		},
+		"68": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.map"
+		},
+		"69": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "fn"
+		},
+		"70": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type"
+		},
+		"71": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type"
+		},
+		"72": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "value"
+		},
+		"73": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "index"
+		},
+		"74": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.addItem"
+		},
+		"75": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.addItem"
+		},
+		"76": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "arg"
+		},
+		"77": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.removeItem"
+		},
+		"78": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.removeItem"
+		},
+		"79": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "arg"
+		},
+		"80": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "quantity"
+		},
+		"81": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.filter"
+		},
+		"82": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.filter"
+		},
+		"83": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "fn"
+		},
+		"84": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type"
+		},
+		"85": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type"
+		},
+		"86": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "cart_item"
+		},
+		"87": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.sort"
+		},
+		"88": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.sort"
+		},
+		"89": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "fn"
+		},
+		"90": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type"
+		},
+		"91": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type"
+		},
+		"92": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "cart_item_A"
+		},
+		"93": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "cart_item_B"
+		},
+		"94": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.checkout"
+		},
+		"95": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.checkout"
+		},
+		"96": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.[iterator]"
+		},
+		"97": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.[iterator]"
+		},
+		"98": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.ProductType"
+		},
+		"107": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": ""
+		},
+		"108": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "isShoppingCartItem"
+		},
+		"109": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "isShoppingCartItem"
+		},
+		"110": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "T"
+		},
+		"111": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "arg"
+		},
+		"112": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "IRequiredParameters"
+		},
+		"113": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "__type"
+		},
+		"114": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "__type.index"
+		},
+		"115": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "__type.id"
+		},
+		"116": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "__type.product"
+		},
+		"117": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "__type.unit_price"
+		},
+		"118": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ProductType"
+		},
+		"119": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "IOptionalParameters"
+		},
+		"120": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "__type"
+		},
+		"121": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "__type.quantity"
+		},
+		"122": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "__type.unit_discount"
+		},
+		"123": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "__type.total_discount"
+		},
+		"124": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ICartItemParameters"
+		},
+		"125": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ProductType"
+		},
+		"135": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem"
+		},
+		"136": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.__constructor"
+		},
+		"137": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem"
+		},
+		"138": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.ProductType"
+		},
+		"139": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "args"
+		},
+		"140": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "onChange"
+		},
+		"157": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.valueOf"
+		},
+		"158": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.valueOf"
+		},
+		"159": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.toJSON"
+		},
+		"160": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.toJSON"
+		},
+		"161": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.toString"
+		},
+		"162": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.toString"
+		},
+		"163": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.clone"
+		},
+		"164": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.clone"
+		},
+		"165": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.incrementQuantity"
+		},
+		"166": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.incrementQuantity"
+		},
+		"167": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "increment_size"
+		},
+		"168": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.decrementQuantity"
+		},
+		"169": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.decrementQuantity"
+		},
+		"170": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "decrement_size"
+		},
+		"171": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.setTotalDiscount"
+		},
+		"172": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.setTotalDiscount"
+		},
+		"173": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "total_discount"
+		},
+		"174": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.setIndex"
+		},
+		"175": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.setIndex"
+		},
+		"176": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "new_index"
+		},
+		"197": {
+			"sourceFileName": "src/ShoppingCartItem.ts",
+			"qualifiedName": "ShoppingCartItem.ProductType"
+		}
+	}
+}

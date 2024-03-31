@@ -1,0 +1,16 @@
+{
+	"entryPoints": ["./src/*.ts"],
+	"exclude": [
+		"**/*.spec.ts",
+		"**/*.test.ts",
+		"**/*.test.tsx",
+		"**/node_modules/**"
+	],
+	"out": "docs",
+	"json": "docs/typedoc_documentation.json",
+	"plugin": ["typedoc-plugin-markdown"],
+	"excludePrivate": true,
+	"excludeProtected": true,
+	"excludeExternals": true,
+	"excludeNotDocumented": true
+}

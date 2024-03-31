@@ -9,3 +9,4 @@ tsconfig.json
 rollup.config.ts
 CODE_OF_CONDUCT.md
 CONTRIBUTING.md
+typedoc.json

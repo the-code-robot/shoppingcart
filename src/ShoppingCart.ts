@@ -4,6 +4,7 @@
  */
 
 import {
+	ICartItemJSON,
 	ICartItemParameters,
 	ShoppingCartItem,
 	isShoppingCartItem,
@@ -245,11 +246,19 @@ export default class ShoppingCart<ProductType extends object> {
 	}
 
 	/**
+	 * Returns the corresponding JSON object of the shopping cart.
+	 * @returns An array of objects representing each ShoppingCartItem in the shopping cart.
+	 */
+	toJSON() {
+		return this.valueOf();
+	}
+
+	/**
 	 * Returns a JSON string representing the value of the shopping cart.
 	 * @returns A JSON string representing the value of the shopping cart.
 	 */
 	toString() {
-		return JSON.stringify(this.valueOf());
+		return JSON.stringify(this);
 	}
 
 	/**
@@ -261,6 +270,17 @@ export default class ShoppingCart<ProductType extends object> {
 			items: this.items,
 			onChange: this.onChange,
 			onCheckout: this.onCheckout,
+		});
+	}
+
+	/**
+	 * Maps each item in the shopping cart to another value using a mapping function.
+	 * @param fn A mapping function that transforms each item's JSON representation.
+	 * @returns An array of transformed values.
+	 */
+	map(fn: (value: ICartItemJSON<ProductType>, index: number) => unknown) {
+		return this.items.map((item, i) => {
+			return fn(item.valueOf(), i);
 		});
 	}
 
@@ -290,7 +310,21 @@ export default class ShoppingCart<ProductType extends object> {
 	 * Removes an item from the shopping cart based on the specified key, which can be either a string (ID) or a number (index).
 	 * @param arg The key (ID or index) used to identify the item to remove.
 	 */
-	removeItem(arg: number | string) {
+	removeItem(arg: number | string, quantity?: number) {
+		if (typeof quantity === "number" && quantity > 0) {
+			const item = this.getCartItem(arg);
+
+			const old_quantity = item.quantity;
+			const new_quantity = old_quantity - quantity;
+			if (new_quantity <= 0) {
+				this.removeItemByIndex(item.index);
+				return;
+			}
+
+			item.decrementQuantity(quantity);
+			return;
+		}
+
 		switch (typeof arg) {
 			case "string": {
 				return this.removeItemById(arg);

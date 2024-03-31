@@ -55,6 +55,16 @@ export type IOptionalParameters = {
 export type ICartItemParameters<ProductType> =
 	IRequiredParameters<ProductType> & IOptionalParameters;
 
+export interface ICartItemJSON<ProductType> {
+	index: number;
+	product: ProductType;
+	unit_price: number;
+	quantity: number;
+	unit_discount: number;
+	total_discount: number;
+	aggregate_price: number;
+}
+
 /**
  * Represents a single item in the shopping cart.
  * Manages the item's details such as product, quantity, unit price, and discounts.
@@ -121,7 +131,7 @@ export class ShoppingCartItem<ProductType extends object> {
 	 * Returns the ShoppingCartItem as an object consisting of all its public properties.
 	 * @returns An object representing the ShoppingCartItem with its public properties.
 	 */
-	valueOf(): Record<string, any> {
+	valueOf(): ICartItemJSON<ProductType> {
 		return {
 			index: this._index,
 			product: { ...this._product },
@@ -134,11 +144,19 @@ export class ShoppingCartItem<ProductType extends object> {
 	}
 
 	/**
+	 * Returns the JSON representation, the ShoppingCartItem as an object consisting of all its public properties.
+	 * @returns An object representing the ShoppingCartItem with its public properties.
+	 */
+	toJSON() {
+		return this.valueOf();
+	}
+
+	/**
 	 * Returns the serialized version of the instance as a JSON string.
 	 * @returns A JSON string representing the serialized version of the instance.
 	 */
 	toString(): string {
-		return JSON.stringify(this.valueOf());
+		return JSON.stringify(this);
 	}
 
 	/**
