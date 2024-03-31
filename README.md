@@ -245,8 +245,6 @@ const persistConfig: Partial<IPersistanceConfig> = {
 };
 ```
 
-This documentation provides detailed information about the usage of the `generateShoppingCartContextProvider` function, including its props, interfaces, and an example of how to configure persistence settings for the shopping cart.
-
 ## Release
 
 For detailed release notes, please see [CHANGELOG.md](https://github.com/sreed17/shoppingcart/blob/master/docs/CHANGELOG.md).
