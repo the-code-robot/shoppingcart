@@ -1,7 +1,7 @@
-<h1 style="text-align:center">shoppingcart</h1>
+<h1 align="center">shoppingcart</h1>
 <hr/>
 
-<p style="text-align:center">Effortlessly integrate a fully customizable shopping cart into your React applications with React Shopping Cart—type-safe, flexible, and ready to streamline your e-commerce development workflow!</p>
+<p align="center">Effortlessly integrate a fully customizable shopping cart into your React applications with React Shopping Cart—type-safe, flexible, and ready to streamline your e-commerce development workflow!</p>
 
 The `shoppingcart` library empowers developers to effortlessly integrate a shopping cart functionality into their React applications with utmost flexibility and type safety. With a single function call, you can **_generate a fully functional shopping cart context, provider, and hook tailored to your product types_**.
 
