@@ -1,10 +1,10 @@
-# Contributing to shoppingcart
+# Contributing to @sreed17/shoppingcart
 
-Thank you for considering contributing to shoppingcart! Contributions from the community help improve and maintain this project for everyone.
+Thank you for considering contributing to @sreed17/shoppingcart! Contributions from the community help improve and maintain this project for everyone.
 
 ## How to Contribute
 
-If you'd like to contribute to shoppingcart, please follow these guidelines:
+If you'd like to contribute to @sreed17/shoppingcart, please follow these guidelines:
 
 1. **Opening Issues**: If you encounter a bug, have a feature request, or want to suggest an improvement, please open an issue on [GitHub](https://github.com/sreed17/shoppingcart/issues) to discuss it.
 

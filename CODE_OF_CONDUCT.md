@@ -4,7 +4,7 @@ As contributors and maintainers of the shoppingcart project, we pledge to foster
 
 ## Our Standards
 
-We expect all contributors and participants in the shoppingcart community to adhere to the following standards:
+We expect all contributors and participants in the @sreed17/shoppingcart development community to adhere to the following standards:
 
 -  **Respect**: Treat others with kindness, respect, and empathy.
 -  **Inclusivity**: Welcome and support people of all backgrounds and identities.

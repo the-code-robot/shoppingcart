@@ -1,9 +1,9 @@
-<h1 align="center">shoppingcart</h1>
+<h1 align="center">@sree17/shoppingcart</h1>
 <hr/>
 
 <p align="center">Effortlessly integrate a fully customizable shopping cart into your React applications with React Shopping Cart—type-safe, flexible, and ready to streamline your e-commerce development workflow!</p>
 
-The `shoppingcart` library empowers developers to effortlessly integrate a shopping cart functionality into their React applications with utmost flexibility and type safety. With a single function call, you can **_generate a fully functional shopping cart context, provider, and hook tailored to your product types_**.
+The `@sreed17/shoppingcart` library empowers developers to effortlessly integrate a shopping cart functionality into their React applications with utmost flexibility and type safety. With a single function call, you can **_generate a fully functional shopping cart context, provider, and hook tailored to your product types_**.
 
 ## Features
 
@@ -24,9 +24,9 @@ Interact with the shopping cart state in a type-safe manner. Utilize the provide
 You can install shoppingcart using npm or yarn:
 
 ```bash
-npm install shoppingcart
+npm install @sreed17/shoppingcart
 # or
-yarn add shoppingcart
+yarn add @sreed17/shoppingcart
 ```
 
 ## Usage
@@ -38,13 +38,13 @@ To integrate `shoppingcart` into your React application, follow these steps:
 First, install the `shoppingcart` package via npm or yarn:
 
 ```bash
-npm install shoppingcart
+npm install @sreed17/shoppingcart
 ```
 
 or
 
 ```bash
-yarn add shoppingcart
+yarn add @sreed17/shoppingcart
 ```
 
 ### 2. Usage
@@ -58,7 +58,7 @@ yarn add shoppingcart
  */
 
 // import shoppingCart function (default) from shoppingcart
-import shoppingCart from "shoppingcart";
+import shoppingCart from "@sreed17/shoppingcart";
 
 // Define your product type
 interface MyProductType {
