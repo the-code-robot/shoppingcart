@@ -6,14 +6,14 @@
 	"flags": {},
 	"children": [
 		{
-			"id": 45,
+			"id": 30,
 			"name": "ShoppingCart",
 			"variant": "declaration",
 			"kind": 2,
 			"flags": {},
 			"children": [
 				{
-					"id": 54,
+					"id": 39,
 					"name": "default",
 					"variant": "declaration",
 					"kind": 128,
@@ -39,7 +39,7 @@
 					},
 					"children": [
 						{
-							"id": 60,
+							"id": 45,
 							"name": "constructor",
 							"variant": "declaration",
 							"kind": 512,
@@ -49,12 +49,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 404,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L404"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L404"
 								}
 							],
 							"signatures": [
 								{
-									"id": 61,
+									"id": 46,
 									"name": "new default",
 									"variant": "signature",
 									"kind": 16384,
@@ -72,12 +72,12 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 404,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L404"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L404"
 										}
 									],
 									"typeParameter": [
 										{
-											"id": 62,
+											"id": 47,
 											"name": "ProductType",
 											"variant": "typeParam",
 											"kind": 131072,
@@ -90,7 +90,7 @@
 									],
 									"parameters": [
 										{
-											"id": 63,
+											"id": 48,
 											"name": "args",
 											"variant": "param",
 											"kind": 32768,
@@ -105,11 +105,11 @@
 											},
 											"type": {
 												"type": "reference",
-												"target": 48,
+												"target": 33,
 												"typeArguments": [
 													{
 														"type": "reference",
-														"target": 62,
+														"target": 47,
 														"name": "ProductType",
 														"package": "@sreed17/shoppingcart",
 														"qualifiedName": "default.ProductType",
@@ -123,11 +123,11 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 54,
+										"target": 39,
 										"typeArguments": [
 											{
 												"type": "reference",
-												"target": 62,
+												"target": 47,
 												"name": "ProductType",
 												"package": "@sreed17/shoppingcart",
 												"qualifiedName": "default.ProductType",
@@ -141,7 +141,7 @@
 							]
 						},
 						{
-							"id": 86,
+							"id": 71,
 							"name": "item_count",
 							"variant": "declaration",
 							"kind": 262144,
@@ -151,11 +151,11 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 192,
 									"character": 5,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L192"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L192"
 								}
 							],
 							"getSignature": {
-								"id": 87,
+								"id": 72,
 								"name": "item_count",
 								"variant": "signature",
 								"kind": 524288,
@@ -173,7 +173,7 @@
 										"fileName": "ShoppingCart.ts",
 										"line": 192,
 										"character": 5,
-										"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L192"
+										"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L192"
 									}
 								],
 								"type": {
@@ -183,7 +183,7 @@
 							}
 						},
 						{
-							"id": 88,
+							"id": 73,
 							"name": "sub_total",
 							"variant": "declaration",
 							"kind": 262144,
@@ -193,11 +193,11 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 199,
 									"character": 5,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L199"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L199"
 								}
 							],
 							"getSignature": {
-								"id": 89,
+								"id": 74,
 								"name": "sub_total",
 								"variant": "signature",
 								"kind": 524288,
@@ -215,7 +215,7 @@
 										"fileName": "ShoppingCart.ts",
 										"line": 199,
 										"character": 5,
-										"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L199"
+										"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L199"
 									}
 								],
 								"type": {
@@ -225,7 +225,7 @@
 							}
 						},
 						{
-							"id": 130,
+							"id": 115,
 							"name": "[iterator]",
 							"variant": "declaration",
 							"kind": 2048,
@@ -235,12 +235,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 234,
 									"character": 2,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L234"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L234"
 								}
 							],
 							"signatures": [
 								{
-									"id": 131,
+									"id": 116,
 									"name": "[iterator]",
 									"variant": "signature",
 									"kind": 4096,
@@ -269,23 +269,23 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 234,
 											"character": 2,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L234"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L234"
 										}
 									],
 									"type": {
 										"type": "reference",
 										"target": {
-											"sourceFileName": "node_modules/.pnpm/typescript@5.4.3/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+											"sourceFileName": "node_modules/typescript/lib/lib.es2015.generator.d.ts",
 											"qualifiedName": "Generator"
 										},
 										"typeArguments": [
 											{
 												"type": "reference",
-												"target": 174,
+												"target": 159,
 												"typeArguments": [
 													{
 														"type": "reference",
-														"target": 62,
+														"target": 47,
 														"name": "ProductType",
 														"package": "@sreed17/shoppingcart",
 														"qualifiedName": "default.ProductType",
@@ -311,7 +311,7 @@
 							]
 						},
 						{
-							"id": 108,
+							"id": 93,
 							"name": "addItem",
 							"variant": "declaration",
 							"kind": 2048,
@@ -321,12 +321,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 311,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L311"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L311"
 								}
 							],
 							"signatures": [
 								{
-									"id": 109,
+									"id": 94,
 									"name": "addItem",
 									"variant": "signature",
 									"kind": 4096,
@@ -344,12 +344,12 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 311,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L311"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L311"
 										}
 									],
 									"parameters": [
 										{
-											"id": 110,
+											"id": 95,
 											"name": "arg",
 											"variant": "param",
 											"kind": 32768,
@@ -364,11 +364,11 @@
 											},
 											"type": {
 												"type": "reference",
-												"target": 46,
+												"target": 31,
 												"typeArguments": [
 													{
 														"type": "reference",
-														"target": 62,
+														"target": 47,
 														"name": "ProductType",
 														"package": "@sreed17/shoppingcart",
 														"qualifiedName": "default.ProductType",
@@ -388,7 +388,7 @@
 							]
 						},
 						{
-							"id": 128,
+							"id": 113,
 							"name": "checkout",
 							"variant": "declaration",
 							"kind": 2048,
@@ -398,12 +398,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 391,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L391"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L391"
 								}
 							],
 							"signatures": [
 								{
-									"id": 129,
+									"id": 114,
 									"name": "checkout",
 									"variant": "signature",
 									"kind": 4096,
@@ -432,7 +432,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 391,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L391"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L391"
 										}
 									],
 									"type": {
@@ -443,7 +443,7 @@
 							]
 						},
 						{
-							"id": 99,
+							"id": 84,
 							"name": "clone",
 							"variant": "declaration",
 							"kind": 2048,
@@ -453,12 +453,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 288,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L288"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L288"
 								}
 							],
 							"signatures": [
 								{
-									"id": 100,
+									"id": 85,
 									"name": "clone",
 									"variant": "signature",
 									"kind": 4096,
@@ -487,16 +487,16 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 288,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L288"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L288"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 54,
+										"target": 39,
 										"typeArguments": [
 											{
 												"type": "reference",
-												"target": 62,
+												"target": 47,
 												"name": "ProductType",
 												"package": "@sreed17/shoppingcart",
 												"qualifiedName": "default.ProductType",
@@ -510,7 +510,7 @@
 							]
 						},
 						{
-							"id": 115,
+							"id": 100,
 							"name": "filter",
 							"variant": "declaration",
 							"kind": 2048,
@@ -520,12 +520,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 362,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L362"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L362"
 								}
 							],
 							"signatures": [
 								{
-									"id": 116,
+									"id": 101,
 									"name": "filter",
 									"variant": "signature",
 									"kind": 4096,
@@ -543,12 +543,12 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 362,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L362"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L362"
 										}
 									],
 									"parameters": [
 										{
-											"id": 117,
+											"id": 102,
 											"name": "fn",
 											"variant": "param",
 											"kind": 32768,
@@ -564,7 +564,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 118,
+													"id": 103,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
@@ -574,12 +574,12 @@
 															"fileName": "ShoppingCart.ts",
 															"line": 362,
 															"character": 12,
-															"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L362"
+															"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L362"
 														}
 													],
 													"signatures": [
 														{
-															"id": 119,
+															"id": 104,
 															"name": "__type",
 															"variant": "signature",
 															"kind": 4096,
@@ -589,23 +589,23 @@
 																	"fileName": "ShoppingCart.ts",
 																	"line": 362,
 																	"character": 12,
-																	"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L362"
+																	"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L362"
 																}
 															],
 															"parameters": [
 																{
-																	"id": 120,
+																	"id": 105,
 																	"name": "cart_item",
 																	"variant": "param",
 																	"kind": 32768,
 																	"flags": {},
 																	"type": {
 																		"type": "reference",
-																		"target": 174,
+																		"target": 159,
 																		"typeArguments": [
 																			{
 																				"type": "reference",
-																				"target": 62,
+																				"target": 47,
 																				"name": "ProductType",
 																				"package": "@sreed17/shoppingcart",
 																				"qualifiedName": "default.ProductType",
@@ -635,7 +635,7 @@
 							]
 						},
 						{
-							"id": 90,
+							"id": 75,
 							"name": "getCartItem",
 							"variant": "declaration",
 							"kind": 2048,
@@ -645,12 +645,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 209,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L209"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L209"
 								}
 							],
 							"signatures": [
 								{
-									"id": 91,
+									"id": 76,
 									"name": "getCartItem",
 									"variant": "signature",
 									"kind": 4096,
@@ -688,12 +688,12 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 209,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L209"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L209"
 										}
 									],
 									"parameters": [
 										{
-											"id": 92,
+											"id": 77,
 											"name": "key",
 											"variant": "param",
 											"kind": 32768,
@@ -723,11 +723,11 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 174,
+										"target": 159,
 										"typeArguments": [
 											{
 												"type": "reference",
-												"target": 62,
+												"target": 47,
 												"name": "ProductType",
 												"package": "@sreed17/shoppingcart",
 												"qualifiedName": "default.ProductType",
@@ -741,7 +741,7 @@
 							]
 						},
 						{
-							"id": 101,
+							"id": 86,
 							"name": "map",
 							"variant": "declaration",
 							"kind": 2048,
@@ -751,12 +751,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 301,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L301"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L301"
 								}
 							],
 							"signatures": [
 								{
-									"id": 102,
+									"id": 87,
 									"name": "map",
 									"variant": "signature",
 									"kind": 4096,
@@ -785,12 +785,12 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 301,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L301"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L301"
 										}
 									],
 									"parameters": [
 										{
-											"id": 103,
+											"id": 88,
 											"name": "fn",
 											"variant": "param",
 											"kind": 32768,
@@ -806,7 +806,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 104,
+													"id": 89,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
@@ -816,12 +816,12 @@
 															"fileName": "ShoppingCart.ts",
 															"line": 301,
 															"character": 9,
-															"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L301"
+															"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L301"
 														}
 													],
 													"signatures": [
 														{
-															"id": 105,
+															"id": 90,
 															"name": "__type",
 															"variant": "signature",
 															"kind": 4096,
@@ -831,12 +831,12 @@
 																	"fileName": "ShoppingCart.ts",
 																	"line": 301,
 																	"character": 9,
-																	"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L301"
+																	"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L301"
 																}
 															],
 															"parameters": [
 																{
-																	"id": 106,
+																	"id": 91,
 																	"name": "value",
 																	"variant": "param",
 																	"kind": 32768,
@@ -850,7 +850,7 @@
 																		"typeArguments": [
 																			{
 																				"type": "reference",
-																				"target": 62,
+																				"target": 47,
 																				"name": "ProductType",
 																				"package": "@sreed17/shoppingcart",
 																				"qualifiedName": "default.ProductType",
@@ -862,7 +862,7 @@
 																	}
 																},
 																{
-																	"id": 107,
+																	"id": 92,
 																	"name": "index",
 																	"variant": "param",
 																	"kind": 32768,
@@ -894,7 +894,7 @@
 							]
 						},
 						{
-							"id": 82,
+							"id": 67,
 							"name": "moveItem",
 							"variant": "declaration",
 							"kind": 2048,
@@ -904,12 +904,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 156,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L156"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L156"
 								}
 							],
 							"signatures": [
 								{
-									"id": 83,
+									"id": 68,
 									"name": "moveItem",
 									"variant": "signature",
 									"kind": 4096,
@@ -927,12 +927,12 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 156,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L156"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L156"
 										}
 									],
 									"parameters": [
 										{
-											"id": 84,
+											"id": 69,
 											"name": "identifier",
 											"variant": "param",
 											"kind": 32768,
@@ -960,7 +960,7 @@
 											}
 										},
 										{
-											"id": 85,
+											"id": 70,
 											"name": "new_index",
 											"variant": "param",
 											"kind": 32768,
@@ -987,7 +987,7 @@
 							]
 						},
 						{
-							"id": 111,
+							"id": 96,
 							"name": "removeItem",
 							"variant": "declaration",
 							"kind": 2048,
@@ -997,12 +997,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 333,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L333"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L333"
 								}
 							],
 							"signatures": [
 								{
-									"id": 112,
+									"id": 97,
 									"name": "removeItem",
 									"variant": "signature",
 									"kind": 4096,
@@ -1020,12 +1020,12 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 333,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L333"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L333"
 										}
 									],
 									"parameters": [
 										{
-											"id": 113,
+											"id": 98,
 											"name": "arg",
 											"variant": "param",
 											"kind": 32768,
@@ -1053,7 +1053,7 @@
 											}
 										},
 										{
-											"id": 114,
+											"id": 99,
 											"name": "quantity",
 											"variant": "param",
 											"kind": 32768,
@@ -1074,7 +1074,7 @@
 							]
 						},
 						{
-							"id": 121,
+							"id": 106,
 							"name": "sort",
 							"variant": "declaration",
 							"kind": 2048,
@@ -1084,12 +1084,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 374,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L374"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L374"
 								}
 							],
 							"signatures": [
 								{
-									"id": 122,
+									"id": 107,
 									"name": "sort",
 									"variant": "signature",
 									"kind": 4096,
@@ -1107,12 +1107,12 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 374,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L374"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L374"
 										}
 									],
 									"parameters": [
 										{
-											"id": 123,
+											"id": 108,
 											"name": "fn",
 											"variant": "param",
 											"kind": 32768,
@@ -1128,7 +1128,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 124,
+													"id": 109,
 													"name": "__type",
 													"variant": "declaration",
 													"kind": 65536,
@@ -1138,12 +1138,12 @@
 															"fileName": "ShoppingCart.ts",
 															"line": 375,
 															"character": 6,
-															"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L375"
+															"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L375"
 														}
 													],
 													"signatures": [
 														{
-															"id": 125,
+															"id": 110,
 															"name": "__type",
 															"variant": "signature",
 															"kind": 4096,
@@ -1153,23 +1153,23 @@
 																	"fileName": "ShoppingCart.ts",
 																	"line": 375,
 																	"character": 6,
-																	"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L375"
+																	"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L375"
 																}
 															],
 															"parameters": [
 																{
-																	"id": 126,
+																	"id": 111,
 																	"name": "cart_item_A",
 																	"variant": "param",
 																	"kind": 32768,
 																	"flags": {},
 																	"type": {
 																		"type": "reference",
-																		"target": 174,
+																		"target": 159,
 																		"typeArguments": [
 																			{
 																				"type": "reference",
-																				"target": 62,
+																				"target": 47,
 																				"name": "ProductType",
 																				"package": "@sreed17/shoppingcart",
 																				"qualifiedName": "default.ProductType",
@@ -1181,18 +1181,18 @@
 																	}
 																},
 																{
-																	"id": 127,
+																	"id": 112,
 																	"name": "cart_item_B",
 																	"variant": "param",
 																	"kind": 32768,
 																	"flags": {},
 																	"type": {
 																		"type": "reference",
-																		"target": 174,
+																		"target": 159,
 																		"typeArguments": [
 																			{
 																				"type": "reference",
-																				"target": 62,
+																				"target": 47,
 																				"name": "ProductType",
 																				"package": "@sreed17/shoppingcart",
 																				"qualifiedName": "default.ProductType",
@@ -1222,7 +1222,7 @@
 							]
 						},
 						{
-							"id": 95,
+							"id": 80,
 							"name": "toJSON",
 							"variant": "declaration",
 							"kind": 2048,
@@ -1232,12 +1232,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 272,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L272"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L272"
 								}
 							],
 							"signatures": [
 								{
-									"id": 96,
+									"id": 81,
 									"name": "toJSON",
 									"variant": "signature",
 									"kind": 4096,
@@ -1266,7 +1266,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 272,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L272"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L272"
 										}
 									],
 									"type": {
@@ -1280,7 +1280,7 @@
 											"typeArguments": [
 												{
 													"type": "reference",
-													"target": 62,
+													"target": 47,
 													"name": "ProductType",
 													"package": "@sreed17/shoppingcart",
 													"qualifiedName": "default.ProductType",
@@ -1295,7 +1295,7 @@
 							]
 						},
 						{
-							"id": 97,
+							"id": 82,
 							"name": "toString",
 							"variant": "declaration",
 							"kind": 2048,
@@ -1305,12 +1305,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 280,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L280"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L280"
 								}
 							],
 							"signatures": [
 								{
-									"id": 98,
+									"id": 83,
 									"name": "toString",
 									"variant": "signature",
 									"kind": 4096,
@@ -1339,7 +1339,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 280,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L280"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L280"
 										}
 									],
 									"type": {
@@ -1350,7 +1350,7 @@
 							]
 						},
 						{
-							"id": 93,
+							"id": 78,
 							"name": "valueOf",
 							"variant": "declaration",
 							"kind": 2048,
@@ -1360,12 +1360,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 264,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L264"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L264"
 								}
 							],
 							"signatures": [
 								{
-									"id": 94,
+									"id": 79,
 									"name": "valueOf",
 									"variant": "signature",
 									"kind": 4096,
@@ -1394,7 +1394,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 264,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L264"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L264"
 										}
 									],
 									"type": {
@@ -1408,7 +1408,7 @@
 											"typeArguments": [
 												{
 													"type": "reference",
-													"target": 62,
+													"target": 47,
 													"name": "ProductType",
 													"package": "@sreed17/shoppingcart",
 													"qualifiedName": "default.ProductType",
@@ -1423,7 +1423,7 @@
 							]
 						},
 						{
-							"id": 55,
+							"id": 40,
 							"name": "parse",
 							"variant": "declaration",
 							"kind": 2048,
@@ -1435,12 +1435,12 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 244,
 									"character": 8,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L244"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L244"
 								}
 							],
 							"signatures": [
 								{
-									"id": 56,
+									"id": 41,
 									"name": "parse",
 									"variant": "signature",
 									"kind": 4096,
@@ -1458,12 +1458,12 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 244,
 											"character": 8,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L244"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L244"
 										}
 									],
 									"typeParameter": [
 										{
-											"id": 57,
+											"id": 42,
 											"name": "ProductType",
 											"variant": "typeParam",
 											"kind": 131072,
@@ -1476,7 +1476,7 @@
 									],
 									"parameters": [
 										{
-											"id": 58,
+											"id": 43,
 											"name": "str",
 											"variant": "param",
 											"kind": 32768,
@@ -1495,7 +1495,7 @@
 											}
 										},
 										{
-											"id": 59,
+											"id": 44,
 											"name": "onChange",
 											"variant": "param",
 											"kind": 32768,
@@ -1511,11 +1511,11 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"target": 174,
+														"target": 159,
 														"typeArguments": [
 															{
 																"type": "reference",
-																"target": 57,
+																"target": 42,
 																"name": "ProductType",
 																"package": "@sreed17/shoppingcart",
 																"refersToTypeParameter": true
@@ -1534,11 +1534,11 @@
 										"type": "array",
 										"elementType": {
 											"type": "reference",
-											"target": 174,
+											"target": 159,
 											"typeArguments": [
 												{
 													"type": "reference",
-													"target": 57,
+													"target": 42,
 													"name": "ProductType",
 													"package": "@sreed17/shoppingcart",
 													"refersToTypeParameter": true
@@ -1556,33 +1556,33 @@
 						{
 							"title": "Constructors",
 							"children": [
-								60
+								45
 							]
 						},
 						{
 							"title": "Accessors",
 							"children": [
-								86,
-								88
+								71,
+								73
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								130,
-								108,
-								128,
-								99,
 								115,
-								90,
-								101,
-								82,
-								111,
-								121,
-								95,
-								97,
 								93,
-								55
+								113,
+								84,
+								100,
+								75,
+								86,
+								67,
+								96,
+								106,
+								80,
+								82,
+								78,
+								40
 							]
 						}
 					],
@@ -1591,12 +1591,12 @@
 							"fileName": "ShoppingCart.ts",
 							"line": 46,
 							"character": 21,
-							"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L46"
+							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L46"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 132,
+							"id": 117,
 							"name": "ProductType",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -1609,7 +1609,7 @@
 					]
 				},
 				{
-					"id": 46,
+					"id": 31,
 					"name": "ICartItemCreateParameters",
 					"variant": "declaration",
 					"kind": 2097152,
@@ -1627,12 +1627,12 @@
 							"fileName": "ShoppingCart.ts",
 							"line": 17,
 							"character": 12,
-							"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L17"
+							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L17"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 47,
+							"id": 32,
 							"name": "T",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -1642,17 +1642,17 @@
 					"type": {
 						"type": "reference",
 						"target": {
-							"sourceFileName": "node_modules/.pnpm/typescript@5.4.3/node_modules/typescript/lib/lib.es5.d.ts",
+							"sourceFileName": "node_modules/typescript/lib/lib.es5.d.ts",
 							"qualifiedName": "Omit"
 						},
 						"typeArguments": [
 							{
 								"type": "reference",
-								"target": 162,
+								"target": 147,
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 47,
+										"target": 32,
 										"name": "T",
 										"package": "@sreed17/shoppingcart",
 										"refersToTypeParameter": true
@@ -1671,7 +1671,7 @@
 					}
 				},
 				{
-					"id": 48,
+					"id": 33,
 					"name": "ICartParameters",
 					"variant": "declaration",
 					"kind": 2097152,
@@ -1689,12 +1689,12 @@
 							"fileName": "ShoppingCart.ts",
 							"line": 25,
 							"character": 12,
-							"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L25"
+							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L25"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 53,
+							"id": 38,
 							"name": "ProductType",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -1708,14 +1708,14 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 49,
+							"id": 34,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 50,
+									"id": 35,
 									"name": "items",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1735,18 +1735,18 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 29,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L29"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L29"
 										}
 									],
 									"type": {
 										"type": "array",
 										"elementType": {
 											"type": "reference",
-											"target": 174,
+											"target": 159,
 											"typeArguments": [
 												{
 													"type": "reference",
-													"target": 53,
+													"target": 38,
 													"name": "ProductType",
 													"package": "@sreed17/shoppingcart",
 													"refersToTypeParameter": true
@@ -1758,7 +1758,7 @@
 									}
 								},
 								{
-									"id": 51,
+									"id": 36,
 									"name": "onChange",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1778,7 +1778,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 33,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L33"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L33"
 										}
 									],
 									"type": {
@@ -1793,11 +1793,11 @@
 												"types": [
 													{
 														"type": "reference",
-														"target": 54,
+														"target": 39,
 														"typeArguments": [
 															{
 																"type": "reference",
-																"target": 53,
+																"target": 38,
 																"name": "ProductType",
 																"package": "@sreed17/shoppingcart",
 																"refersToTypeParameter": true
@@ -1809,11 +1809,11 @@
 													},
 													{
 														"type": "reference",
-														"target": 174,
+														"target": 159,
 														"typeArguments": [
 															{
 																"type": "reference",
-																"target": 53,
+																"target": 38,
 																"name": "ProductType",
 																"package": "@sreed17/shoppingcart",
 																"refersToTypeParameter": true
@@ -1830,7 +1830,7 @@
 									}
 								},
 								{
-									"id": 52,
+									"id": 37,
 									"name": "onCheckout",
 									"variant": "declaration",
 									"kind": 1024,
@@ -1850,7 +1850,7 @@
 											"fileName": "ShoppingCart.ts",
 											"line": 39,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L39"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L39"
 										}
 									],
 									"type": {
@@ -1862,11 +1862,11 @@
 										"typeArguments": [
 											{
 												"type": "reference",
-												"target": 54,
+												"target": 39,
 												"typeArguments": [
 													{
 														"type": "reference",
-														"target": 53,
+														"target": 38,
 														"name": "ProductType",
 														"package": "@sreed17/shoppingcart",
 														"refersToTypeParameter": true
@@ -1886,9 +1886,9 @@
 								{
 									"title": "Properties",
 									"children": [
-										50,
-										51,
-										52
+										35,
+										36,
+										37
 									]
 								}
 							],
@@ -1897,7 +1897,7 @@
 									"fileName": "ShoppingCart.ts",
 									"line": 25,
 									"character": 58,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L25"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L25"
 								}
 							]
 						}
@@ -1908,14 +1908,14 @@
 				{
 					"title": "Classes",
 					"children": [
-						54
+						39
 					]
 				},
 				{
 					"title": "Type Aliases",
 					"children": [
-						46,
-						48
+						31,
+						33
 					]
 				}
 			],
@@ -1924,19 +1924,19 @@
 					"fileName": "ShoppingCart.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L1"
+					"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L1"
 				}
 			]
 		},
 		{
-			"id": 141,
+			"id": 126,
 			"name": "ShoppingCartItem",
 			"variant": "declaration",
 			"kind": 2,
 			"flags": {},
 			"children": [
 				{
-					"id": 174,
+					"id": 159,
 					"name": "ShoppingCartItem",
 					"variant": "declaration",
 					"kind": 128,
@@ -1951,7 +1951,7 @@
 					},
 					"children": [
 						{
-							"id": 180,
+							"id": 165,
 							"name": "constructor",
 							"variant": "declaration",
 							"kind": 512,
@@ -1961,12 +1961,12 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 324,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L324"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L324"
 								}
 							],
 							"signatures": [
 								{
-									"id": 181,
+									"id": 166,
 									"name": "new ShoppingCartItem",
 									"variant": "signature",
 									"kind": 16384,
@@ -1984,12 +1984,12 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 324,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L324"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L324"
 										}
 									],
 									"typeParameter": [
 										{
-											"id": 182,
+											"id": 167,
 											"name": "ProductType",
 											"variant": "typeParam",
 											"kind": 131072,
@@ -2002,7 +2002,7 @@
 									],
 									"parameters": [
 										{
-											"id": 183,
+											"id": 168,
 											"name": "args",
 											"variant": "param",
 											"kind": 32768,
@@ -2017,11 +2017,11 @@
 											},
 											"type": {
 												"type": "reference",
-												"target": 162,
+												"target": 147,
 												"typeArguments": [
 													{
 														"type": "reference",
-														"target": 182,
+														"target": 167,
 														"name": "ProductType",
 														"package": "@sreed17/shoppingcart",
 														"qualifiedName": "ShoppingCartItem.ProductType",
@@ -2033,7 +2033,7 @@
 											}
 										},
 										{
-											"id": 184,
+											"id": 169,
 											"name": "onChange",
 											"variant": "param",
 											"kind": 32768,
@@ -2049,11 +2049,11 @@
 												"typeArguments": [
 													{
 														"type": "reference",
-														"target": 174,
+														"target": 159,
 														"typeArguments": [
 															{
 																"type": "reference",
-																"target": 182,
+																"target": 167,
 																"name": "ProductType",
 																"package": "@sreed17/shoppingcart",
 																"qualifiedName": "ShoppingCartItem.ProductType",
@@ -2071,11 +2071,11 @@
 									],
 									"type": {
 										"type": "reference",
-										"target": 174,
+										"target": 159,
 										"typeArguments": [
 											{
 												"type": "reference",
-												"target": 182,
+												"target": 167,
 												"name": "ProductType",
 												"package": "@sreed17/shoppingcart",
 												"qualifiedName": "ShoppingCartItem.ProductType",
@@ -2089,7 +2089,7 @@
 							]
 						},
 						{
-							"id": 207,
+							"id": 192,
 							"name": "clone",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2099,12 +2099,12 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 190,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L190"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L190"
 								}
 							],
 							"signatures": [
 								{
-									"id": 208,
+									"id": 193,
 									"name": "clone",
 									"variant": "signature",
 									"kind": 4096,
@@ -2133,16 +2133,16 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 190,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L190"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L190"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 174,
+										"target": 159,
 										"typeArguments": [
 											{
 												"type": "reference",
-												"target": 182,
+												"target": 167,
 												"name": "ProductType",
 												"package": "@sreed17/shoppingcart",
 												"qualifiedName": "ShoppingCartItem.ProductType",
@@ -2156,7 +2156,7 @@
 							]
 						},
 						{
-							"id": 212,
+							"id": 197,
 							"name": "decrementQuantity",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2166,12 +2166,12 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 226,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L226"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L226"
 								}
 							],
 							"signatures": [
 								{
-									"id": 213,
+									"id": 198,
 									"name": "decrementQuantity",
 									"variant": "signature",
 									"kind": 4096,
@@ -2189,12 +2189,12 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 226,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L226"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L226"
 										}
 									],
 									"parameters": [
 										{
-											"id": 214,
+											"id": 199,
 											"name": "decrement_size",
 											"variant": "param",
 											"kind": 32768,
@@ -2222,7 +2222,7 @@
 							]
 						},
 						{
-							"id": 209,
+							"id": 194,
 							"name": "incrementQuantity",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2232,12 +2232,12 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 209,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L209"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L209"
 								}
 							],
 							"signatures": [
 								{
-									"id": 210,
+									"id": 195,
 									"name": "incrementQuantity",
 									"variant": "signature",
 									"kind": 4096,
@@ -2255,12 +2255,12 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 209,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L209"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L209"
 										}
 									],
 									"parameters": [
 										{
-											"id": 211,
+											"id": 196,
 											"name": "increment_size",
 											"variant": "param",
 											"kind": 32768,
@@ -2288,7 +2288,7 @@
 							]
 						},
 						{
-							"id": 218,
+							"id": 203,
 							"name": "setIndex",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2298,12 +2298,12 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 256,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L256"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L256"
 								}
 							],
 							"signatures": [
 								{
-									"id": 219,
+									"id": 204,
 									"name": "setIndex",
 									"variant": "signature",
 									"kind": 4096,
@@ -2321,12 +2321,12 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 256,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L256"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L256"
 										}
 									],
 									"parameters": [
 										{
-											"id": 220,
+											"id": 205,
 											"name": "new_index",
 											"variant": "param",
 											"kind": 32768,
@@ -2353,7 +2353,7 @@
 							]
 						},
 						{
-							"id": 215,
+							"id": 200,
 							"name": "setTotalDiscount",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2363,12 +2363,12 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 244,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L244"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L244"
 								}
 							],
 							"signatures": [
 								{
-									"id": 216,
+									"id": 201,
 									"name": "setTotalDiscount",
 									"variant": "signature",
 									"kind": 4096,
@@ -2386,12 +2386,12 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 244,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L244"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L244"
 										}
 									],
 									"parameters": [
 										{
-											"id": 217,
+											"id": 202,
 											"name": "total_discount",
 											"variant": "param",
 											"kind": 32768,
@@ -2418,7 +2418,7 @@
 							]
 						},
 						{
-							"id": 203,
+							"id": 188,
 							"name": "toJSON",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2428,12 +2428,12 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 174,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L174"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L174"
 								}
 							],
 							"signatures": [
 								{
-									"id": 204,
+									"id": 189,
 									"name": "toJSON",
 									"variant": "signature",
 									"kind": 4096,
@@ -2462,7 +2462,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 174,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L174"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L174"
 										}
 									],
 									"type": {
@@ -2474,7 +2474,7 @@
 										"typeArguments": [
 											{
 												"type": "reference",
-												"target": 182,
+												"target": 167,
 												"name": "ProductType",
 												"package": "@sreed17/shoppingcart",
 												"qualifiedName": "ShoppingCartItem.ProductType",
@@ -2488,7 +2488,7 @@
 							]
 						},
 						{
-							"id": 205,
+							"id": 190,
 							"name": "toString",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2498,12 +2498,12 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 182,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L182"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L182"
 								}
 							],
 							"signatures": [
 								{
-									"id": 206,
+									"id": 191,
 									"name": "toString",
 									"variant": "signature",
 									"kind": 4096,
@@ -2532,7 +2532,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 182,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L182"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L182"
 										}
 									],
 									"type": {
@@ -2543,7 +2543,7 @@
 							]
 						},
 						{
-							"id": 201,
+							"id": 186,
 							"name": "valueOf",
 							"variant": "declaration",
 							"kind": 2048,
@@ -2553,12 +2553,12 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 157,
 									"character": 1,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L157"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L157"
 								}
 							],
 							"signatures": [
 								{
-									"id": 202,
+									"id": 187,
 									"name": "valueOf",
 									"variant": "signature",
 									"kind": 4096,
@@ -2587,7 +2587,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 157,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L157"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L157"
 										}
 									],
 									"type": {
@@ -2599,7 +2599,7 @@
 										"typeArguments": [
 											{
 												"type": "reference",
-												"target": 182,
+												"target": 167,
 												"name": "ProductType",
 												"package": "@sreed17/shoppingcart",
 												"qualifiedName": "ShoppingCartItem.ProductType",
@@ -2617,20 +2617,20 @@
 						{
 							"title": "Constructors",
 							"children": [
-								180
+								165
 							]
 						},
 						{
 							"title": "Methods",
 							"children": [
-								207,
-								212,
-								209,
-								218,
-								215,
+								192,
+								197,
+								194,
 								203,
-								205,
-								201
+								200,
+								188,
+								190,
+								186
 							]
 						}
 					],
@@ -2639,12 +2639,12 @@
 							"fileName": "ShoppingCartItem.ts",
 							"line": 74,
 							"character": 13,
-							"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L74"
+							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L74"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 241,
+							"id": 226,
 							"name": "ProductType",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -2657,7 +2657,7 @@
 					]
 				},
 				{
-					"id": 162,
+					"id": 147,
 					"name": "ICartItemParameters",
 					"variant": "declaration",
 					"kind": 2097152,
@@ -2675,12 +2675,12 @@
 							"fileName": "ShoppingCartItem.ts",
 							"line": 56,
 							"character": 12,
-							"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L56"
+							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L56"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 163,
+							"id": 148,
 							"name": "ProductType",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -2692,11 +2692,11 @@
 						"types": [
 							{
 								"type": "reference",
-								"target": 150,
+								"target": 135,
 								"typeArguments": [
 									{
 										"type": "reference",
-										"target": 163,
+										"target": 148,
 										"name": "ProductType",
 										"package": "@sreed17/shoppingcart",
 										"refersToTypeParameter": true
@@ -2707,7 +2707,7 @@
 							},
 							{
 								"type": "reference",
-								"target": 157,
+								"target": 142,
 								"name": "IOptionalParameters",
 								"package": "@sreed17/shoppingcart"
 							}
@@ -2715,7 +2715,7 @@
 					}
 				},
 				{
-					"id": 157,
+					"id": 142,
 					"name": "IOptionalParameters",
 					"variant": "declaration",
 					"kind": 2097152,
@@ -2733,20 +2733,20 @@
 							"fileName": "ShoppingCartItem.ts",
 							"line": 35,
 							"character": 12,
-							"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L35"
+							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L35"
 						}
 					],
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 158,
+							"id": 143,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 159,
+									"id": 144,
 									"name": "quantity",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2766,7 +2766,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 40,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L40"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L40"
 										}
 									],
 									"type": {
@@ -2775,7 +2775,7 @@
 									}
 								},
 								{
-									"id": 161,
+									"id": 146,
 									"name": "total_discount",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2795,7 +2795,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 50,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L50"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L50"
 										}
 									],
 									"type": {
@@ -2804,7 +2804,7 @@
 									}
 								},
 								{
-									"id": 160,
+									"id": 145,
 									"name": "unit_discount",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2824,7 +2824,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 45,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L45"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L45"
 										}
 									],
 									"type": {
@@ -2837,9 +2837,9 @@
 								{
 									"title": "Properties",
 									"children": [
-										159,
-										161,
-										160
+										144,
+										146,
+										145
 									]
 								}
 							],
@@ -2848,14 +2848,14 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 35,
 									"character": 34,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L35"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L35"
 								}
 							]
 						}
 					}
 				},
 				{
-					"id": 150,
+					"id": 135,
 					"name": "IRequiredParameters",
 					"variant": "declaration",
 					"kind": 2097152,
@@ -2873,12 +2873,12 @@
 							"fileName": "ShoppingCartItem.ts",
 							"line": 12,
 							"character": 12,
-							"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L12"
+							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L12"
 						}
 					],
 					"typeParameters": [
 						{
-							"id": 156,
+							"id": 141,
 							"name": "ProductType",
 							"variant": "typeParam",
 							"kind": 131072,
@@ -2888,14 +2888,14 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 151,
+							"id": 136,
 							"name": "__type",
 							"variant": "declaration",
 							"kind": 65536,
 							"flags": {},
 							"children": [
 								{
-									"id": 153,
+									"id": 138,
 									"name": "id",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2913,7 +2913,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 21,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L21"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L21"
 										}
 									],
 									"type": {
@@ -2922,7 +2922,7 @@
 									}
 								},
 								{
-									"id": 152,
+									"id": 137,
 									"name": "index",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2940,7 +2940,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 16,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L16"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L16"
 										}
 									],
 									"type": {
@@ -2949,7 +2949,7 @@
 									}
 								},
 								{
-									"id": 154,
+									"id": 139,
 									"name": "product",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2967,19 +2967,19 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 25,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L25"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L25"
 										}
 									],
 									"type": {
 										"type": "reference",
-										"target": 156,
+										"target": 141,
 										"name": "ProductType",
 										"package": "@sreed17/shoppingcart",
 										"refersToTypeParameter": true
 									}
 								},
 								{
-									"id": 155,
+									"id": 140,
 									"name": "unit_price",
 									"variant": "declaration",
 									"kind": 1024,
@@ -2997,7 +2997,7 @@
 											"fileName": "ShoppingCartItem.ts",
 											"line": 29,
 											"character": 1,
-											"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L29"
+											"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L29"
 										}
 									],
 									"type": {
@@ -3010,10 +3010,10 @@
 								{
 									"title": "Properties",
 									"children": [
-										153,
-										152,
-										154,
-										155
+										138,
+										137,
+										139,
+										140
 									]
 								}
 							],
@@ -3022,14 +3022,14 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 12,
 									"character": 47,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L12"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L12"
 								}
 							]
 						}
 					}
 				},
 				{
-					"id": 142,
+					"id": 127,
 					"name": "isShoppingCartItem",
 					"variant": "declaration",
 					"kind": 64,
@@ -3039,12 +3039,12 @@
 							"fileName": "ShoppingCartItem.ts",
 							"line": 369,
 							"character": 16,
-							"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L369"
+							"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L369"
 						}
 					],
 					"signatures": [
 						{
-							"id": 143,
+							"id": 128,
 							"name": "isShoppingCartItem",
 							"variant": "signature",
 							"kind": 4096,
@@ -3073,12 +3073,12 @@
 									"fileName": "ShoppingCartItem.ts",
 									"line": 369,
 									"character": 16,
-									"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L369"
+									"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L369"
 								}
 							],
 							"typeParameter": [
 								{
-									"id": 144,
+									"id": 129,
 									"name": "T",
 									"variant": "typeParam",
 									"kind": 131072,
@@ -3091,7 +3091,7 @@
 							],
 							"parameters": [
 								{
-									"id": 145,
+									"id": 130,
 									"name": "arg",
 									"variant": "param",
 									"kind": 32768,
@@ -3116,11 +3116,11 @@
 								"asserts": false,
 								"targetType": {
 									"type": "reference",
-									"target": 174,
+									"target": 159,
 									"typeArguments": [
 										{
 											"type": "reference",
-											"target": 144,
+											"target": 129,
 											"name": "T",
 											"package": "@sreed17/shoppingcart",
 											"refersToTypeParameter": true
@@ -3138,21 +3138,21 @@
 				{
 					"title": "Classes",
 					"children": [
-						174
+						159
 					]
 				},
 				{
 					"title": "Type Aliases",
 					"children": [
-						162,
-						157,
-						150
+						147,
+						142,
+						135
 					]
 				},
 				{
 					"title": "Functions",
 					"children": [
-						142
+						127
 					]
 				}
 			],
@@ -3161,12 +3161,12 @@
 					"fileName": "ShoppingCartItem.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L1"
+					"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L1"
 				}
 			]
 		},
 		{
-			"id": 7,
+			"id": 233,
 			"name": "index",
 			"variant": "declaration",
 			"kind": 2,
@@ -3176,7 +3176,7 @@
 					"fileName": "index.ts",
 					"line": 1,
 					"character": 0,
-					"url": "https://github.com/sreed17/shoppingcart/blob/542de64/src/index.ts#L1"
+					"url": "https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/index.ts#L1"
 				}
 			]
 		}
@@ -3185,9 +3185,9 @@
 		{
 			"title": "Modules",
 			"children": [
-				45,
-				141,
-				7
+				30,
+				126,
+				233
 			]
 		}
 	],
@@ -3195,7 +3195,7 @@
 	"readme": [
 		{
 			"kind": "text",
-			"text": "<h1 align=\"center\">@sreed17/shoppingcart</h1>\r\n<hr/>\r\n\r\n<p align=\"center\">Effortlessly integrate a fully customizable shopping cart into your React applications with React Shopping Cart—type-safe, flexible, and ready to streamline your e-commerce development workflow!</p>\r\n\r\nThe "
+			"text": "<h1 align=\"center\">@sreed17/shoppingcart</h1>\n<hr/>\n\n<p align=\"center\">Effortlessly integrate a fully customizable shopping cart into your React applications with React Shopping Cart—type-safe, flexible, and ready to streamline your e-commerce development workflow!</p>\n\nThe "
 		},
 		{
 			"kind": "code",
@@ -3203,23 +3203,15 @@
 		},
 		{
 			"kind": "text",
-			"text": " library empowers developers to effortlessly integrate a shopping cart functionality into their React applications with utmost flexibility and type safety. You can **_generate a fully functional shopping cart context, provider, and hook tailored to your product types_**.\r\n\r\n## Features\r\n\r\n### 1. Universal Cart Generation\r\n\r\nEasily create a shopping cart for any product type by providing a generic type parameter. The library dynamically generates a shopping cart context, provider, and hook specific to your product type, ensuring seamless integration and type safety.\r\n\r\n### 2. Intuitive Context Usage\r\n\r\nAccess the shopping cart state anywhere in your React application using the created use hook. Retrieve essential cart information, such as item count and subtotal, with ease, enabling smooth rendering of shopping cart components.\r\n\r\n### 3. Type-Safe Modifications\r\n\r\nInteract with the shopping cart state in a type-safe manner. Utilize the provided class instance as the context, allowing for straightforward and type-checked modifications to the cart, ensuring data integrity and reliable application behavior.\r\n\r\n## Installation\r\n\r\nYou can install shoppingcart using npm or yarn:\r\n\r\n"
+			"text": " library empowers developers to effortlessly integrate a shopping cart functionality into their React applications with utmost flexibility and type safety. You can **_generate a fully functional shopping cart context, provider, and hook tailored to your product types_**.\n\n## Features\n\n### 1. Universal Cart Generation\n\nEasily create a shopping cart for any product type by providing a generic type parameter. The library dynamically generates a shopping cart context, provider, and hook specific to your product type, ensuring seamless integration and type safety.\n\n### 2. Intuitive Context Usage\n\nAccess the shopping cart state anywhere in your React application using the created use hook. Retrieve essential cart information, such as item count and subtotal, with ease, enabling smooth rendering of shopping cart components.\n\n### 3. Type-Safe Modifications\n\nInteract with the shopping cart state in a type-safe manner. Utilize the provided class instance as the context, allowing for straightforward and type-checked modifications to the cart, ensuring data integrity and reliable application behavior.\n\n## Installation\n\nYou can install shoppingcart using npm or yarn:\n\n"
 		},
 		{
 			"kind": "code",
-			"text": "```bash\r\nnpm install @sreed17/shoppingcart\r\n# or\r\nyarn add @sreed17/shoppingcart\r\n```"
+			"text": "```bash\nnpm install @sreed17/shoppingcart\n# or\nyarn add @sreed17/shoppingcart\n```"
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\n## Usage\r\n\r\nTo integrate "
-		},
-		{
-			"kind": "code",
-			"text": "`shoppingcart`"
-		},
-		{
-			"kind": "text",
-			"text": " into your React application, follow these steps:\r\n\r\n### 1. Installation\r\n\r\nFirst, install the "
+			"text": "\n\n## Usage\n\nTo integrate "
 		},
 		{
 			"kind": "code",
@@ -3227,39 +3219,47 @@
 		},
 		{
 			"kind": "text",
-			"text": " package via npm or yarn:\r\n\r\n"
+			"text": " into your React application, follow these steps:\n\n### 1. Installation\n\nFirst, install the "
 		},
 		{
 			"kind": "code",
-			"text": "```bash\r\nnpm install @sreed17/shoppingcart\r\n```"
+			"text": "`shoppingcart`"
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\nor\r\n\r\n"
+			"text": " package via npm or yarn:\n\n"
 		},
 		{
 			"kind": "code",
-			"text": "```bash\r\nyarn add @sreed17/shoppingcart\r\n```"
+			"text": "```bash\nnpm install @sreed17/shoppingcart\n```"
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\n### 2. Usage\r\n\r\n#### 1. Create the ShoppingCartProvider context provider and useShoppingCart hook from your product type.\r\n\r\n"
+			"text": "\n\nor\n\n"
 		},
 		{
 			"kind": "code",
-			"text": "```ts\r\n/**\r\n * @file MyShoppingCart.tsx\r\n * @description Shopping cart tailored for your product type\r\n */\r\n\r\n// import shoppingCart function (default) from shoppingcart\r\nimport shoppingCart from \"@sreed17/shoppingcart\";\r\n\r\n// Define your product type\r\ninterface MyProductType {\r\n\t// definition of your product type\r\n}\r\n\r\n// Generate the provider and hook for your product type\r\nexport const { ShoppingCartProvider, useShoppingCart } =\r\n\tshoppingCart<MyProductType>();\r\n\r\n// Your are now ready to use the the shopping cart tailored for your product type!\r\n```"
+			"text": "```bash\nyarn add @sreed17/shoppingcart\n```"
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\n#### 2. Using the ShoppingCartProvider.\r\n\r\nWrap ShoppingCartProvider around components that need t access the cart.\r\n\r\n"
+			"text": "\n\n### 2. Usage\n\n#### 1. Create the ShoppingCartProvider context provider and useShoppingCart hook from your product type.\n\n"
 		},
 		{
 			"kind": "code",
-			"text": "```ts\r\nimport {ShoppingCartProvider} from \"./MyShoppingCart\"\r\n// rest of the code...\r\nreturn<>\r\n<ShoppingCartProvider>\r\n // child-components\r\n</ShoppingCartProvider>\r\n```"
+			"text": "```ts\n/**\n * @file MyShoppingCart.tsx\n * @description Shopping cart tailored for your product type\n */\n\n// import shoppingCart function (default) from shoppingcart\nimport shoppingCart from \"@sreed17/shoppingcart\";\n\n// Define your product type\ninterface MyProductType {\n\t// definition of your product type\n}\n\n// Generate the provider and hook for your product type\nexport const { ShoppingCartProvider, useShoppingCart } =\n\tshoppingCart<MyProductType>();\n\n// Your are now ready to use the the shopping cart tailored for your product type!\n```"
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\nYou can add "
+			"text": "\n\n#### 2. Using the ShoppingCartProvider.\n\nWrap ShoppingCartProvider around components that need t access the cart.\n\n"
+		},
+		{
+			"kind": "code",
+			"text": "```ts\nimport {ShoppingCartProvider} from \"./MyShoppingCart\"\n// rest of the code...\nreturn<>\n<ShoppingCartProvider>\n // child-components\n</ShoppingCartProvider>\n```"
+		},
+		{
+			"kind": "text",
+			"text": "\n\nYou can add "
 		},
 		{
 			"kind": "code",
@@ -3267,7 +3267,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " attribute to set a handler for when checkout method is triggered from the children.\r\n\r\n#### 3. Using the useShoppingCart hook.\r\n\r\nIt provides can instance of ShoppingCart class named "
+			"text": " attribute to set a handler for when checkout method is triggered from the children.\n\n#### 3. Using the useShoppingCart hook.\n\nIt provides can instance of ShoppingCart class named "
 		},
 		{
 			"kind": "code",
@@ -3283,15 +3283,15 @@
 		},
 		{
 			"kind": "text",
-			"text": " flag.\r\nRead the [documentation](https://github.com/sreed17/shoppingcart/blob/master/docs/classes/ShoppingCart.default.md) to see all the available methods available in the cart;\r\n\r\n"
+			"text": " flag.\nRead the [documentation](https://github.com/sreed17/shoppingcart/blob/master/docs/classes/ShoppingCart.default.md) to see all the available methods available in the cart;\n\n"
 		},
 		{
 			"kind": "code",
-			"text": "```ts\r\n/**\r\n * @file Child-component.tsx\r\n * @description A child component that uses the shopping cart context.\r\n */\r\n\r\n// ...other imports\r\nimport {useShoppingCart} from \"./MyShoppingCart\";\r\n\r\n// other definitions\r\n\r\nconst ChildComponent:FC<PropType> = ({/* Props */})=>{\r\n\r\n/**\r\n * cart: instance of the shopping cart class, can take null value hence needs null check.\r\n * is_loading: whether the context is loaded on component mount\r\n */\r\nconst {cart, is_loading} = useShoppingCart();\r\n\r\n// null check cart and use the is_loading flag to stabilize rendering\r\n\r\nreturn <div>\r\n<div>Item count: {cart.item_count}<div>\r\n\r\n{/** Render the cart items */}\r\n<ul>\r\n{\r\ncart.map((cartItem)=>{\r\n  const {id, aggregate_price, quantity} = cartItem;\r\n  return <li key={id}>\r\n <span>{id}</span>\r\n <span>{aggregate_price}</span>\r\n <span>{quantity}</span>\r\n  </li>\r\n})\r\n}\r\n</ul>\r\n\r\n</div>\r\n}\r\n```"
+			"text": "```ts\n/**\n * @file Child-component.tsx\n * @description A child component that uses the shopping cart context.\n */\n\n// ...other imports\nimport {useShoppingCart} from \"./MyShoppingCart\";\n\n// other definitions\n\nconst ChildComponent:FC<PropType> = ({/* Props */})=>{\n\n/**\n * cart: instance of the shopping cart class, can take null value hence needs null check.\n * is_loading: whether the context is loaded on component mount\n */\nconst {cart, is_loading} = useShoppingCart();\n\n// null check cart and use the is_loading flag to stabilize rendering\n\nreturn <div>\n<div>Item count: {cart.item_count}<div>\n\n{/** Render the cart items */}\n<ul>\n{\ncart.map((cartItem)=>{\n  const {id, aggregate_price, quantity} = cartItem;\n  return <li key={id}>\n <span>{id}</span>\n <span>{aggregate_price}</span>\n <span>{quantity}</span>\n  </li>\n})\n}\n</ul>\n\n</div>\n}\n```"
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\n### Methods\r\n\r\n#### ShoppingCart\r\n\r\n| Method/Accessor                   | Description                                                                                            |\r\n| --------------------------------- | ------------------------------------------------------------------------------------------------------ |\r\n| "
+			"text": "\n\n### Methods\n\n#### ShoppingCart\n\n| Method/Accessor                   | Description                                                                                            |\n| --------------------------------- | ------------------------------------------------------------------------------------------------------ |\n| "
 		},
 		{
 			"kind": "code",
@@ -3299,7 +3299,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "                      | Returns the number of items in the shopping cart.                                                      |\r\n| "
+			"text": "                      | Returns the number of items in the shopping cart.                                                      |\n| "
 		},
 		{
 			"kind": "code",
@@ -3307,7 +3307,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "                       | Returns the subtotal of all items in the shopping cart.                                                |\r\n| "
+			"text": "                       | Returns the subtotal of all items in the shopping cart.                                                |\n| "
 		},
 		{
 			"kind": "code",
@@ -3323,7 +3323,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " from the shopping cart based on the specified key (ID or index).        |\r\n| "
+			"text": " from the shopping cart based on the specified key (ID or index).        |\n| "
 		},
 		{
 			"kind": "code",
@@ -3331,7 +3331,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " | Moves the item identified by the identifier to a new index within the shopping cart.                   |\r\n| "
+			"text": " | Moves the item identified by the identifier to a new index within the shopping cart.                   |\n| "
 		},
 		{
 			"kind": "code",
@@ -3347,7 +3347,7 @@
 		},
 		{
 			"kind": "text",
-			"text": ". |\r\n| "
+			"text": ". |\n| "
 		},
 		{
 			"kind": "code",
@@ -3355,7 +3355,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "                        | Returns the corresponding JSON object of the shopping cart.                                            |\r\n| "
+			"text": "                        | Returns the corresponding JSON object of the shopping cart.                                            |\n| "
 		},
 		{
 			"kind": "code",
@@ -3363,7 +3363,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "                      | Returns a JSON string representing the value of the shopping cart.                                     |\r\n| "
+			"text": "                      | Returns a JSON string representing the value of the shopping cart.                                     |\n| "
 		},
 		{
 			"kind": "code",
@@ -3371,7 +3371,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "                         | Creates and returns a deep copy of the shopping cart.                                                  |\r\n| "
+			"text": "                         | Creates and returns a deep copy of the shopping cart.                                                  |\n| "
 		},
 		{
 			"kind": "code",
@@ -3379,7 +3379,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "                         | Maps each item in the shopping cart to another value using a mapping function.                         |\r\n| "
+			"text": "                         | Maps each item in the shopping cart to another value using a mapping function.                         |\n| "
 		},
 		{
 			"kind": "code",
@@ -3387,7 +3387,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "                    | Adds a new item to the shopping cart or updates the quantity of an existing item if the ID matches.    |\r\n| "
+			"text": "                    | Adds a new item to the shopping cart or updates the quantity of an existing item if the ID matches.    |\n| "
 		},
 		{
 			"kind": "code",
@@ -3395,7 +3395,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "      | Removes an item from the shopping cart based on the specified key (ID or index).                       |\r\n| "
+			"text": "      | Removes an item from the shopping cart based on the specified key (ID or index).                       |\n| "
 		},
 		{
 			"kind": "code",
@@ -3403,7 +3403,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "                      | Filters the items in the shopping cart based on the provided function.                                 |\r\n| "
+			"text": "                      | Filters the items in the shopping cart based on the provided function.                                 |\n| "
 		},
 		{
 			"kind": "code",
@@ -3411,7 +3411,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "                        | Sorts the items in the shopping cart based on the provided comparison function.                        |\r\n| "
+			"text": "                        | Sorts the items in the shopping cart based on the provided comparison function.                        |\n| "
 		},
 		{
 			"kind": "code",
@@ -3427,7 +3427,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " callback function, if provided.             |\r\n| "
+			"text": " callback function, if provided.             |\n| "
 		},
 		{
 			"kind": "code",
@@ -3435,7 +3435,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "            | Returns an iterator for iterating over all items in the shopping cart.                                 |\r\n\r\n#### ShoppingCartItem\r\n\r\n| Method/Accessor              | Description                                                                                          |\r\n| ---------------------------- | ---------------------------------------------------------------------------------------------------- |\r\n| "
+			"text": "            | Returns an iterator for iterating over all items in the shopping cart.                                 |\n\n#### ShoppingCartItem\n\n| Method/Accessor              | Description                                                                                          |\n| ---------------------------- | ---------------------------------------------------------------------------------------------------- |\n| "
 		},
 		{
 			"kind": "code",
@@ -3451,7 +3451,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " as an object consisting of all its public properties.                 |\r\n| "
+			"text": " as an object consisting of all its public properties.                 |\n| "
 		},
 		{
 			"kind": "code",
@@ -3467,7 +3467,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " as an object consisting of its properties. |\r\n| "
+			"text": " as an object consisting of its properties. |\n| "
 		},
 		{
 			"kind": "code",
@@ -3483,7 +3483,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " instance as a JSON string.                  |\r\n| "
+			"text": " instance as a JSON string.                  |\n| "
 		},
 		{
 			"kind": "code",
@@ -3491,7 +3491,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "                    | Creates and returns a deep copy of the current shopping cart item.                                   |\r\n| "
+			"text": "                    | Creates and returns a deep copy of the current shopping cart item.                                   |\n| "
 		},
 		{
 			"kind": "code",
@@ -3499,7 +3499,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "    | Increments the quantity of the item by the specified amount.                                         |\r\n| "
+			"text": "    | Increments the quantity of the item by the specified amount.                                         |\n| "
 		},
 		{
 			"kind": "code",
@@ -3507,7 +3507,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "    | Decrements the quantity of the item by the specified amount.                                         |\r\n| "
+			"text": "    | Decrements the quantity of the item by the specified amount.                                         |\n| "
 		},
 		{
 			"kind": "code",
@@ -3515,7 +3515,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " | Sets the total discount applied to the item.                                                         |\r\n\r\n| Property          | Description                                             |\r\n| ----------------- | ------------------------------------------------------- |\r\n| "
+			"text": " | Sets the total discount applied to the item.                                                         |\n\n| Property          | Description                                             |\n| ----------------- | ------------------------------------------------------- |\n| "
 		},
 		{
 			"kind": "code",
@@ -3523,7 +3523,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "           | The index (position) of the item in the shopping cart.  |\r\n| "
+			"text": "           | The index (position) of the item in the shopping cart.  |\n| "
 		},
 		{
 			"kind": "code",
@@ -3531,7 +3531,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "      | The previous index of the item in the shopping cart.    |\r\n| "
+			"text": "      | The previous index of the item in the shopping cart.    |\n| "
 		},
 		{
 			"kind": "code",
@@ -3539,7 +3539,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "              | The unique identifier for the product.                  |\r\n| "
+			"text": "              | The unique identifier for the product.                  |\n| "
 		},
 		{
 			"kind": "code",
@@ -3547,7 +3547,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "         | The product details.                                    |\r\n| "
+			"text": "         | The product details.                                    |\n| "
 		},
 		{
 			"kind": "code",
@@ -3555,7 +3555,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "      | The price per unit of the product.                      |\r\n| "
+			"text": "      | The price per unit of the product.                      |\n| "
 		},
 		{
 			"kind": "code",
@@ -3563,7 +3563,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "        | The quantity of the product.                            |\r\n| "
+			"text": "        | The quantity of the product.                            |\n| "
 		},
 		{
 			"kind": "code",
@@ -3571,7 +3571,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "   | The discount applied to each unit of the product.       |\r\n| "
+			"text": "   | The discount applied to each unit of the product.       |\n| "
 		},
 		{
 			"kind": "code",
@@ -3579,7 +3579,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "  | The discount applied to the total price of the product. |\r\n| "
+			"text": "  | The discount applied to the total price of the product. |\n| "
 		},
 		{
 			"kind": "code",
@@ -3587,15 +3587,15 @@
 		},
 		{
 			"kind": "text",
-			"text": " | The total price of the item after applying discounts.   |\r\n\r\n#### ShoppingCartProvider\r\n\r\nThis provider manages the state of the shopping cart and provides access to it throughout the application.\r\n\r\n"
+			"text": " | The total price of the item after applying discounts.   |\n\n#### ShoppingCartProvider\n\nThis provider manages the state of the shopping cart and provides access to it throughout the application.\n\n"
 		},
 		{
 			"kind": "code",
-			"text": "```jsx\r\nimport { ShoppingCartProvider, useShoppingCart } from \"./ShoppingCart\";\r\n\r\n// Use the provider in your application\r\nfunction App() {\r\n\treturn (\r\n\t\t<ShoppingCartProvider onCheckout={handleCheckout} persist={persistConfig}>\r\n\t\t\t{/* Your application components */}\r\n\t\t</ShoppingCartProvider>\r\n\t);\r\n}\r\n```"
+			"text": "```jsx\nimport { ShoppingCartProvider, useShoppingCart } from \"./ShoppingCart\";\n\n// Use the provider in your application\nfunction App() {\n\treturn (\n\t\t<ShoppingCartProvider onCheckout={handleCheckout} persist={persistConfig}>\n\t\t\t{/* Your application components */}\n\t\t</ShoppingCartProvider>\n\t);\n}\n```"
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\nBy default persistance is "
+			"text": "\n\nBy default persistance is "
 		},
 		{
 			"kind": "code",
@@ -3627,7 +3627,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " interface.\r\n\r\n##### Props\r\n\r\n###### "
+			"text": " interface.\n\n##### Props\n\n###### "
 		},
 		{
 			"kind": "code",
@@ -3635,7 +3635,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\n| Name           | Type                                        | Description                                                                                                                                    |\r\n| -------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |\r\n| "
+			"text": "\n\n| Name           | Type                                        | Description                                                                                                                                    |\n| -------------- | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |\n| "
 		},
 		{
 			"kind": "code",
@@ -3659,7 +3659,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " method is invoked on the shopping cart. |\r\n| "
+			"text": " method is invoked on the shopping cart. |\n| "
 		},
 		{
 			"kind": "code",
@@ -3675,7 +3675,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "           | Initial values for the cart items. These items will be used to initialize the shopping cart.                                                   |\r\n| "
+			"text": "           | Initial values for the cart items. These items will be used to initialize the shopping cart.                                                   |\n| "
 		},
 		{
 			"kind": "code",
@@ -3691,7 +3691,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "       | Persistence configuration for the shopping cart. It can include options to configure storage, disable persistence, or clear data on reload.    |\r\n\r\n### "
+			"text": "       | Persistence configuration for the shopping cart. It can include options to configure storage, disable persistence, or clear data on reload.    |\n\n### "
 		},
 		{
 			"kind": "code",
@@ -3699,7 +3699,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\n| Name              | Type       | Default                   | Description                                                                                                  |\r\n| ----------------- | ---------- | ------------------------- | ------------------------------------------------------------------------------------------------------------ |\r\n| "
+			"text": "\n\n| Name              | Type       | Default                   | Description                                                                                                  |\n| ----------------- | ---------- | ------------------------- | ------------------------------------------------------------------------------------------------------------ |\n| "
 		},
 		{
 			"kind": "code",
@@ -3723,7 +3723,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " | The storage mechanism to use for persisting shopping cart data.                                              |\r\n| "
+			"text": " | The storage mechanism to use for persisting shopping cart data.                                              |\n| "
 		},
 		{
 			"kind": "code",
@@ -3755,7 +3755,7 @@
 		},
 		{
 			"kind": "text",
-			"text": ", persistence will be disabled, and shopping cart data will not be stored.                   |\r\n| "
+			"text": ", persistence will be disabled, and shopping cart data will not be stored.                   |\n| "
 		},
 		{
 			"kind": "code",
@@ -3787,7 +3787,7 @@
 		},
 		{
 			"kind": "text",
-			"text": ", shopping cart data will be cleared from storage when the application reloads or refreshes. |\r\n\r\n##### Interfaces\r\n\r\n###### "
+			"text": ", shopping cart data will be cleared from storage when the application reloads or refreshes. |\n\n##### Interfaces\n\n###### "
 		},
 		{
 			"kind": "code",
@@ -3795,7 +3795,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\nAn interface defining methods for storing and retrieving shopping cart data.\r\n\r\n| Method  | Description                         |\r\n| ------- | ----------------------------------- |\r\n| "
+			"text": "\n\nAn interface defining methods for storing and retrieving shopping cart data.\n\n| Method  | Description                         |\n| ------- | ----------------------------------- |\n| "
 		},
 		{
 			"kind": "code",
@@ -3803,7 +3803,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "  | Saves the provided data to storage. |\r\n| "
+			"text": "  | Saves the provided data to storage. |\n| "
 		},
 		{
 			"kind": "code",
@@ -3811,7 +3811,7 @@
 		},
 		{
 			"kind": "text",
-			"text": "  | Retrieves data from storage.        |\r\n| "
+			"text": "  | Retrieves data from storage.        |\n| "
 		},
 		{
 			"kind": "code",
@@ -3819,7 +3819,7 @@
 		},
 		{
 			"kind": "text",
-			"text": " | Clears data from storage.           |\r\n\r\n###### "
+			"text": " | Clears data from storage.           |\n\n###### "
 		},
 		{
 			"kind": "code",
@@ -3827,23 +3827,23 @@
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\nThe default persistence configuration for the shopping cart.\r\n\r\n###### Example\r\n\r\nHere's an example of configuring the persistence settings for the shopping cart:\r\n\r\n"
+			"text": "\n\nThe default persistence configuration for the shopping cart.\n\n###### Example\n\nHere's an example of configuring the persistence settings for the shopping cart:\n\n"
 		},
 		{
 			"kind": "code",
-			"text": "```jsx\r\nconst persistConfig: Partial<IPersistanceConfig> = {\r\n    disabled: false,\r\n    clear_on_reload: true,\r\n    storage: new LocalStoragePersistence(\"custom_shopping_cart\"),\r\n};\r\n```"
+			"text": "```jsx\nconst persistConfig: Partial<IPersistanceConfig> = {\n    disabled: false,\n    clear_on_reload: true,\n    storage: new LocalStoragePersistence(\"custom_shopping_cart\"),\n};\n```"
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\n"
+			"text": "\n\n## Release\n\nFor detailed release notes, please see [CHANGELOG.md](https://github.com/sreed17/shoppingcart/blob/master/docs/CHANGELOG.md).\n\n## Contributing\n\nThank you for considering contributing to this project! Contributions are welcome and encouraged.\n\n### How to Contribute\n\nIf you have any ideas, suggestions, or bug fixes, please follow these steps:\n\n1. **Open an Issue**: If you encounter a bug, have a feature request, or want to suggest an improvement, please open an issue on [GitHub](https://github.com/sreed17/shoppingcart/issues) to discuss it.\n\n2. **Submit a Pull Request**: If you'd like to contribute directly, fork the repository, make your changes, and submit a pull request. Please ensure your pull request follows our [contribution guidelines](https://github.com/sreed17/shoppingcart/blob/master/CONTRIBUTING.md) and adheres to our coding standards.\n\n### Development Workflow\n\nThis project uses semantic-release, commitizen, and cz-conventional-changelog to automate versioning and generate changelogs. To commit changes, please use the following command:\n\n"
 		},
 		{
 			"kind": "code",
-			"text": "````\r\n\r\nThis documentation provides detailed information about the usage of the `generateShoppingCartContextProvider` function, including its props, interfaces, and an example of how to configure persistence settings for the shopping cart.\r\n\r\n\r\n## Release\r\n\r\nFor detailed release notes, please see [CHANGELOG.md](https://github.com/sreed17/shoppingcart/blob/master/docs/CHANGELOG.md).\r\n\r\n## Contributing\r\n\r\nThank you for considering contributing to this project! Contributions are welcome and encouraged.\r\n\r\n### How to Contribute\r\n\r\nIf you have any ideas, suggestions, or bug fixes, please follow these steps:\r\n\r\n1. **Open an Issue**: If you encounter a bug, have a feature request, or want to suggest an improvement, please open an issue on [GitHub](https://github.com/sreed17/shoppingcart/issues) to discuss it.\r\n\r\n2. **Submit a Pull Request**: If you'd like to contribute directly, fork the repository, make your changes, and submit a pull request. Please ensure your pull request follows our [contribution guidelines](https://github.com/sreed17/shoppingcart/blob/master/CONTRIBUTING.md) and adheres to our coding standards.\r\n\r\n### Development Workflow\r\n\r\nThis project uses semantic-release, commitizen, and cz-conventional-changelog to automate versioning and generate changelogs. To commit changes, please use the following command:\r\n\r\n```bash\r\nnpm run commit\r\n````"
+			"text": "```bash\nnpm run commit\n```"
 		},
 		{
 			"kind": "text",
-			"text": "\r\n\r\n## Contributing\r\n\r\nContributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request on [GitHub](https://github.com/sreed17/shoppingcart).\r\n\r\n!IMPORTANT: The project uses semantic-release and commitizen with cz-conventional-changelog. Use "
+			"text": "\n\n## Contributing\n\nContributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request on [GitHub](https://github.com/sreed17/shoppingcart).\n\n!IMPORTANT: The project uses semantic-release and commitizen with cz-conventional-changelog. Use "
 		},
 		{
 			"kind": "code",
@@ -3851,177 +3851,233 @@
 		},
 		{
 			"kind": "text",
-			"text": "to commit changes before pushing changes.\r\n\r\n### Code of Conduct\r\n\r\nPlease note that this project is governed by a [Code of Conduct](https://github.com/sreed17/shoppingcart/blob/master/CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.\r\n\r\nWe appreciate your contributions to making this project better for everyone!\r\n\r\n## License\r\n\r\nThis project is licensed under the MIT License - see the [LICENSE](https://github.com/sreed17/shoppingcart/blob/master/LICENSE) file for details."
+			"text": "to commit changes before pushing changes.\n\n### Code of Conduct\n\nPlease note that this project is governed by a [Code of Conduct](https://github.com/sreed17/shoppingcart/blob/master/CODE_OF_CONDUCT.md). By participating in this project, you agree to abide by its terms.\n\nWe appreciate your contributions to making this project better for everyone!\n\n## License\n\nThis project is licensed under the MIT License - see the [LICENSE](https://github.com/sreed17/shoppingcart/blob/master/LICENSE) file for details."
 		}
 	],
 	"symbolIdMap": {
-		"7": {
-			"sourceFileName": "src/index.ts",
-			"qualifiedName": ""
-		},
-		"45": {
+		"30": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": ""
 		},
-		"46": {
+		"31": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "ICartItemCreateParameters"
 		},
-		"47": {
+		"32": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "T"
 		},
-		"48": {
+		"33": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "ICartParameters"
 		},
-		"49": {
+		"34": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "__type"
 		},
-		"50": {
+		"35": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "__type.items"
 		},
-		"51": {
+		"36": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "__type.onChange"
 		},
-		"52": {
+		"37": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "__type.onCheckout"
 		},
-		"53": {
+		"38": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "ProductType"
 		},
-		"54": {
+		"39": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default"
 		},
-		"55": {
+		"40": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.parse"
 		},
-		"56": {
+		"41": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.parse"
 		},
-		"57": {
+		"42": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "ProductType"
 		},
-		"58": {
+		"43": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "str"
 		},
-		"59": {
+		"44": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "onChange"
 		},
-		"60": {
+		"45": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.__constructor"
 		},
-		"61": {
+		"46": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default"
 		},
-		"62": {
+		"47": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.ProductType"
 		},
-		"63": {
+		"48": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "args"
 		},
-		"82": {
+		"67": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.moveItem"
 		},
-		"83": {
+		"68": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.moveItem"
 		},
-		"84": {
+		"69": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "identifier"
 		},
-		"85": {
+		"70": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "new_index"
 		},
-		"86": {
+		"71": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.item_count"
 		},
-		"87": {
+		"72": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.item_count"
 		},
-		"88": {
+		"73": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.sub_total"
 		},
-		"89": {
+		"74": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.sub_total"
 		},
-		"90": {
+		"75": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.getCartItem"
 		},
-		"91": {
+		"76": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.getCartItem"
 		},
-		"92": {
+		"77": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "key"
 		},
-		"93": {
+		"78": {
 			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.valueOf"
+		},
+		"79": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.valueOf"
+		},
+		"80": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.toJSON"
+		},
+		"81": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.toJSON"
+		},
+		"82": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.toString"
+		},
+		"83": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.toString"
+		},
+		"84": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.clone"
+		},
+		"85": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.clone"
+		},
+		"86": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.map"
+		},
+		"87": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.map"
+		},
+		"88": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "fn"
+		},
+		"89": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type"
+		},
+		"90": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "__type"
+		},
+		"91": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "value"
+		},
+		"92": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "index"
+		},
+		"93": {
+			"sourceFileName": "src/ShoppingCart.ts",
+			"qualifiedName": "default.addItem"
 		},
 		"94": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.valueOf"
+			"qualifiedName": "default.addItem"
 		},
 		"95": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.toJSON"
+			"qualifiedName": "arg"
 		},
 		"96": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.toJSON"
+			"qualifiedName": "default.removeItem"
 		},
 		"97": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.toString"
+			"qualifiedName": "default.removeItem"
 		},
 		"98": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.toString"
+			"qualifiedName": "arg"
 		},
 		"99": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.clone"
+			"qualifiedName": "quantity"
 		},
 		"100": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.clone"
+			"qualifiedName": "default.filter"
 		},
 		"101": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.map"
+			"qualifiedName": "default.filter"
 		},
 		"102": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.map"
+			"qualifiedName": "fn"
 		},
 		"103": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "fn"
+			"qualifiedName": "__type"
 		},
 		"104": {
 			"sourceFileName": "src/ShoppingCart.ts",
@@ -4029,299 +4085,243 @@
 		},
 		"105": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "__type"
+			"qualifiedName": "cart_item"
 		},
 		"106": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "value"
+			"qualifiedName": "default.sort"
 		},
 		"107": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "index"
+			"qualifiedName": "default.sort"
 		},
 		"108": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.addItem"
+			"qualifiedName": "fn"
 		},
 		"109": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.addItem"
+			"qualifiedName": "__type"
 		},
 		"110": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "arg"
+			"qualifiedName": "__type"
 		},
 		"111": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.removeItem"
+			"qualifiedName": "cart_item_A"
 		},
 		"112": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.removeItem"
+			"qualifiedName": "cart_item_B"
 		},
 		"113": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "arg"
+			"qualifiedName": "default.checkout"
 		},
 		"114": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "quantity"
+			"qualifiedName": "default.checkout"
 		},
 		"115": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.filter"
+			"qualifiedName": "default.[iterator]"
 		},
 		"116": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.filter"
+			"qualifiedName": "default.[iterator]"
 		},
 		"117": {
 			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "fn"
-		},
-		"118": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "__type"
-		},
-		"119": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "__type"
-		},
-		"120": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "cart_item"
-		},
-		"121": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.sort"
-		},
-		"122": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.sort"
-		},
-		"123": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "fn"
-		},
-		"124": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "__type"
-		},
-		"125": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "__type"
-		},
-		"126": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "cart_item_A"
-		},
-		"127": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "cart_item_B"
-		},
-		"128": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.checkout"
-		},
-		"129": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.checkout"
-		},
-		"130": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.[iterator]"
-		},
-		"131": {
-			"sourceFileName": "src/ShoppingCart.ts",
-			"qualifiedName": "default.[iterator]"
-		},
-		"132": {
-			"sourceFileName": "src/ShoppingCart.ts",
 			"qualifiedName": "default.ProductType"
 		},
-		"141": {
+		"126": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": ""
 		},
-		"142": {
+		"127": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "isShoppingCartItem"
 		},
-		"143": {
+		"128": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "isShoppingCartItem"
 		},
-		"144": {
+		"129": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "T"
 		},
-		"145": {
+		"130": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "arg"
 		},
-		"150": {
+		"135": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "IRequiredParameters"
 		},
-		"151": {
+		"136": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "__type"
 		},
-		"152": {
+		"137": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "__type.index"
 		},
-		"153": {
+		"138": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "__type.id"
 		},
-		"154": {
+		"139": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "__type.product"
 		},
-		"155": {
+		"140": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "__type.unit_price"
 		},
-		"156": {
+		"141": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ProductType"
 		},
-		"157": {
+		"142": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "IOptionalParameters"
 		},
-		"158": {
+		"143": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "__type"
 		},
-		"159": {
+		"144": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "__type.quantity"
 		},
-		"160": {
+		"145": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "__type.unit_discount"
 		},
-		"161": {
+		"146": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "__type.total_discount"
 		},
-		"162": {
+		"147": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ICartItemParameters"
 		},
-		"163": {
+		"148": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ProductType"
 		},
-		"174": {
+		"159": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem"
 		},
-		"180": {
+		"165": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.__constructor"
 		},
-		"181": {
+		"166": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem"
 		},
-		"182": {
+		"167": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.ProductType"
 		},
-		"183": {
+		"168": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "args"
 		},
-		"184": {
+		"169": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "onChange"
 		},
-		"201": {
+		"186": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.valueOf"
 		},
-		"202": {
+		"187": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.valueOf"
 		},
-		"203": {
+		"188": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.toJSON"
 		},
-		"204": {
+		"189": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.toJSON"
 		},
-		"205": {
+		"190": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.toString"
 		},
-		"206": {
+		"191": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.toString"
 		},
-		"207": {
+		"192": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.clone"
 		},
-		"208": {
+		"193": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.clone"
 		},
-		"209": {
+		"194": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.incrementQuantity"
 		},
-		"210": {
+		"195": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.incrementQuantity"
 		},
-		"211": {
+		"196": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "increment_size"
 		},
-		"212": {
+		"197": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.decrementQuantity"
 		},
-		"213": {
+		"198": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.decrementQuantity"
 		},
-		"214": {
+		"199": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "decrement_size"
 		},
-		"215": {
+		"200": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.setTotalDiscount"
 		},
-		"216": {
+		"201": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.setTotalDiscount"
 		},
-		"217": {
+		"202": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "total_discount"
 		},
-		"218": {
+		"203": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.setIndex"
 		},
-		"219": {
+		"204": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.setIndex"
 		},
-		"220": {
+		"205": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "new_index"
 		},
-		"241": {
+		"226": {
 			"sourceFileName": "src/ShoppingCartItem.ts",
 			"qualifiedName": "ShoppingCartItem.ProductType"
+		},
+		"233": {
+			"sourceFileName": "src/index.ts",
+			"qualifiedName": ""
 		}
 	}
 }

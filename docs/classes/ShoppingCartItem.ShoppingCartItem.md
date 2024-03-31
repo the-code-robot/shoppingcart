@@ -57,7 +57,7 @@ Constructs a new instance of ShoppingClassItem.
 
 #### Defined in
 
-[ShoppingCartItem.ts:324](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L324)
+[ShoppingCartItem.ts:324](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L324)
 
 ## Methods
 
@@ -75,7 +75,7 @@ A new instance of ShoppingClassItem with the same parameters as the current item
 
 #### Defined in
 
-[ShoppingCartItem.ts:190](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L190)
+[ShoppingCartItem.ts:190](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L190)
 
 ___
 
@@ -97,7 +97,7 @@ Decrements the quantity of the item by the specified amount.
 
 #### Defined in
 
-[ShoppingCartItem.ts:226](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L226)
+[ShoppingCartItem.ts:226](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L226)
 
 ___
 
@@ -119,7 +119,7 @@ Increments the quantity of the item by the specified amount.
 
 #### Defined in
 
-[ShoppingCartItem.ts:209](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L209)
+[ShoppingCartItem.ts:209](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L209)
 
 ___
 
@@ -141,7 +141,7 @@ Change the index(position) of the item in the shopping cart.
 
 #### Defined in
 
-[ShoppingCartItem.ts:256](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L256)
+[ShoppingCartItem.ts:256](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L256)
 
 ___
 
@@ -163,7 +163,7 @@ Sets the total discount applied to the item.
 
 #### Defined in
 
-[ShoppingCartItem.ts:244](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L244)
+[ShoppingCartItem.ts:244](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L244)
 
 ___
 
@@ -181,7 +181,7 @@ An object representing the ShoppingCartItem with its public properties.
 
 #### Defined in
 
-[ShoppingCartItem.ts:174](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L174)
+[ShoppingCartItem.ts:174](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L174)
 
 ___
 
@@ -199,7 +199,7 @@ A JSON string representing the serialized version of the instance.
 
 #### Defined in
 
-[ShoppingCartItem.ts:182](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L182)
+[ShoppingCartItem.ts:182](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L182)
 
 ___
 
@@ -217,4 +217,4 @@ An object representing the ShoppingCartItem with its public properties.
 
 #### Defined in
 
-[ShoppingCartItem.ts:157](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCartItem.ts#L157)
+[ShoppingCartItem.ts:157](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCartItem.ts#L157)

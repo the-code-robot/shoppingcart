@@ -70,7 +70,7 @@ Creates a new instance of the ShoppingCart class.
 
 #### Defined in
 
-[ShoppingCart.ts:404](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L404)
+[ShoppingCart.ts:404](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L404)
 
 ## Accessors
 
@@ -86,7 +86,7 @@ Return the number of items in the the cart.
 
 #### Defined in
 
-[ShoppingCart.ts:192](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L192)
+[ShoppingCart.ts:192](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L192)
 
 ___
 
@@ -102,7 +102,7 @@ Return the subtotal of the items in the cart.
 
 #### Defined in
 
-[ShoppingCart.ts:199](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L199)
+[ShoppingCart.ts:199](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L199)
 
 ## Methods
 
@@ -120,7 +120,7 @@ An iterator that yields each ShoppingCartItem in the shopping cart.
 
 #### Defined in
 
-[ShoppingCart.ts:234](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L234)
+[ShoppingCart.ts:234](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L234)
 
 ___
 
@@ -142,7 +142,7 @@ Adds a new item to the shopping cart or updates the quantity of an existing item
 
 #### Defined in
 
-[ShoppingCart.ts:311](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L311)
+[ShoppingCart.ts:311](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L311)
 
 ___
 
@@ -162,7 +162,7 @@ Error if the onCheckout function is not provided.
 
 #### Defined in
 
-[ShoppingCart.ts:391](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L391)
+[ShoppingCart.ts:391](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L391)
 
 ___
 
@@ -180,7 +180,7 @@ A new instance of ShoppingCart with identical items, onChange, and onCheckout pr
 
 #### Defined in
 
-[ShoppingCart.ts:288](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L288)
+[ShoppingCart.ts:288](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L288)
 
 ___
 
@@ -202,7 +202,7 @@ Filters the items in the shopping cart based on the provided function.
 
 #### Defined in
 
-[ShoppingCart.ts:362](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L362)
+[ShoppingCart.ts:362](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L362)
 
 ___
 
@@ -230,7 +230,7 @@ Error if the key is not found or if the index is out of bounds.
 
 #### Defined in
 
-[ShoppingCart.ts:209](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L209)
+[ShoppingCart.ts:209](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L209)
 
 ___
 
@@ -254,7 +254,7 @@ An array of transformed values.
 
 #### Defined in
 
-[ShoppingCart.ts:301](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L301)
+[ShoppingCart.ts:301](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L301)
 
 ___
 
@@ -277,7 +277,7 @@ Move the item identified by the identifier to be moved to a new index within the
 
 #### Defined in
 
-[ShoppingCart.ts:156](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L156)
+[ShoppingCart.ts:156](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L156)
 
 ___
 
@@ -300,7 +300,7 @@ Removes an item from the shopping cart based on the specified key, which can be 
 
 #### Defined in
 
-[ShoppingCart.ts:333](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L333)
+[ShoppingCart.ts:333](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L333)
 
 ___
 
@@ -322,7 +322,7 @@ Sorts the items in the shopping cart based on the provided comparison function.
 
 #### Defined in
 
-[ShoppingCart.ts:374](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L374)
+[ShoppingCart.ts:374](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L374)
 
 ___
 
@@ -340,7 +340,7 @@ An array of objects representing each ShoppingCartItem in the shopping cart.
 
 #### Defined in
 
-[ShoppingCart.ts:272](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L272)
+[ShoppingCart.ts:272](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L272)
 
 ___
 
@@ -358,7 +358,7 @@ A JSON string representing the value of the shopping cart.
 
 #### Defined in
 
-[ShoppingCart.ts:280](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L280)
+[ShoppingCart.ts:280](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L280)
 
 ___
 
@@ -376,7 +376,7 @@ An array of objects representing each ShoppingCartItem in the shopping cart.
 
 #### Defined in
 
-[ShoppingCart.ts:264](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L264)
+[ShoppingCart.ts:264](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L264)
 
 ___
 
@@ -405,4 +405,4 @@ Parse a possibly serialized ShoppingCart to ShoppingCartItems array
 
 #### Defined in
 
-[ShoppingCart.ts:244](https://github.com/sreed17/shoppingcart/blob/542de64/src/ShoppingCart.ts#L244)
+[ShoppingCart.ts:244](https://github.com/sreed17/shoppingcart/blob/d2f4a4c/src/ShoppingCart.ts#L244)
