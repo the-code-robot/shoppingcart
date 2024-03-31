@@ -38,6 +38,7 @@ const TestComponent = () => {
 
 	return (
 		<>
+			<p>This is atleast rendering</p>
 			<button onClick={handleAddItem} data-testid="add-button">
 				Add Item
 			</button>
