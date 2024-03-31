@@ -1,10 +1,25 @@
 shoppingcart / [Exports](modules.md)
 
-# shoppingcart
+<h1 style="text-align:center">shoppingcart</h1>
+<hr/>
 
-A basic react library that provides shopping card context, provider and hooks.
+<p style="text-align:center">Effortlessly integrate a fully customizable shopping cart into your React applications with React Shopping Cart—type-safe, flexible, and ready to streamline your e-commerce development workflow!</p>
 
-![Brief Overview](https://github.com/sreed17/shoppingcart/blob/master/lib_overview.png?raw=true)
+The `shoppingcart` library empowers developers to effortlessly integrate a shopping cart functionality into their React applications with utmost flexibility and type safety. With a single function call, you can **_generate a fully functional shopping cart context, provider, and hook tailored to your product types_**.
+
+## Features
+
+### 1. Universal Cart Generation
+
+Easily create a shopping cart for any product type by providing a generic type parameter. The library dynamically generates a shopping cart context, provider, and hook specific to your product type, ensuring seamless integration and type safety.
+
+### 2. Intuitive Context Usage
+
+Access the shopping cart state anywhere in your React application using the created use hook. Retrieve essential cart information, such as item count and subtotal, with ease, enabling smooth rendering of shopping cart components.
+
+### 3. Type-Safe Modifications
+
+Interact with the shopping cart state in a type-safe manner. Utilize the provided class instance as the context, allowing for straightforward and type-checked modifications to the cart, ensuring data integrity and reliable application behavior.
 
 ## Installation
 
@@ -36,7 +51,136 @@ yarn add shoppingcart
 
 ### 2. Usage
 
-!To be updated
+#### 1. Create the ShoppingCartProvider context provider and useShoppingCart hook from your product type.
+
+```ts
+/**
+ * @file MyShoppingCart.tsx
+ * @description Shopping cart tailored for your product type
+ */
+
+// import shoppingCart function (default) from shoppingcart
+import shoppingCart from "shoppingcart";
+
+// Define your product type
+interface MyProductType {
+	// definition of your product type
+}
+
+// Generate the provider and hook for your product type
+export const { ShoppingCartProvider, useShoppingCart } =
+	shoppingCart<MyProductType>();
+
+// Your are now ready to use the the shopping cart tailored for your product type!
+```
+
+#### 2. Using the ShoppingCartProvider.
+
+Wrap ShoppingCartProvider around components that need t access the cart.
+
+```ts
+import {ShoppingCartProvider} from "./MyShoppingCart"
+// rest of the code...
+return<>
+<ShoppingCartProvider>
+ // child-components
+</ShoppingCartProvider>
+```
+
+You can add `onCheckout` attribute to set a handler for when checkout method is triggered from the children.
+
+#### 3. Using the useShoppingCart hook.
+
+It provides can instance of ShoppingCart class named `cart` and an `is_loading` flag.
+Read the [documentation](https://github.com/sreed17/shoppingcart/blob/master/docs/classes/ShoppingCart.default.md) to see all the available methods available in the cart;
+
+```ts
+/**
+ * @file Child-component.tsx
+ * @description A child component that uses the shopping cart context.
+ */
+
+// ...other imports
+import {useShoppingCart} from "./MyShoppingCart";
+
+// other definitions
+
+const ChildComponent:FC<PropType> = ({/* Props */})=>{
+
+/**
+ * cart: instance of the shopping cart class, can take null value hence needs null check.
+ * is_loading: whether the context is loaded on component mount
+ */
+const {cart, is_loading} = useShoppingCart();
+
+// null check cart and use the is_loading flag to stabilize rendering
+
+return <div>
+<div>Item count: {cart.item_count}<div>
+
+{/** Render the cart items */}
+<ul>
+{
+cart.map((cartItem)=>{
+  const {id, aggregate_price, quantity} = cartItem;
+  return <li key={id}>
+ <span>{id}</span>
+ <span>{aggregate_price}</span>
+ <span>{quantity}</span>
+  </li>
+})
+}
+</ul>
+
+</div>
+}
+```
+
+### Methods
+
+#### ShoppingCart
+
+| Method/Accessor                   | Description                                                                                            |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| `item_count`                      | Returns the number of items in the shopping cart.                                                      |
+| `sub_total`                       | Returns the subtotal of all items in the shopping cart.                                                |
+| `getCartItem(key)`                | Retrieves a `ShoppingCartItem` from the shopping cart based on the specified key (ID or index).        |
+| `moveItem(identifier, new_index)` | Moves the item identified by the identifier to a new index within the shopping cart.                   |
+| `valueOf()`                       | Returns the value of the shopping cart as an array of objects, each representing a `ShoppingCartItem`. |
+| `toJSON()`                        | Returns the corresponding JSON object of the shopping cart.                                            |
+| `toString()`                      | Returns a JSON string representing the value of the shopping cart.                                     |
+| `clone()`                         | Creates and returns a deep copy of the shopping cart.                                                  |
+| `map(fn)`                         | Maps each item in the shopping cart to another value using a mapping function.                         |
+| `addItem(arg)`                    | Adds a new item to the shopping cart or updates the quantity of an existing item if the ID matches.    |
+| `removeItem(arg, quantity?)`      | Removes an item from the shopping cart based on the specified key (ID or index).                       |
+| `filter(fn)`                      | Filters the items in the shopping cart based on the provided function.                                 |
+| `sort(fn)`                        | Sorts the items in the shopping cart based on the provided comparison function.                        |
+| `checkout()`                      | Initiates the checkout process by calling the `onCheckout` callback function, if provided.             |
+| `*[Symbol.iterator]()`            | Returns an iterator for iterating over all items in the shopping cart.                                 |
+
+#### ShoppingCartItem
+
+| Method/Accessor              | Description                                                                                          |
+| ---------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `valueOf()`                  | Returns the `ShoppingCartItem` as an object consisting of all its public properties.                 |
+| `toJSON()`                   | Returns the JSON representation of the `ShoppingCartItem` as an object consisting of its properties. |
+| `toString()`                 | Returns the serialized version of the `ShoppingCartItem` instance as a JSON string.                  |
+| `clone()`                    | Creates and returns a deep copy of the current shopping cart item.                                   |
+| `incrementQuantity(size)`    | Increments the quantity of the item by the specified amount.                                         |
+| `decrementQuantity(size)`    | Decrements the quantity of the item by the specified amount.                                         |
+| `setTotalDiscount(discount)` | Sets the total discount applied to the item.                                                         |
+
+| Property          | Description                                             |
+| ----------------- | ------------------------------------------------------- |
+| `index`           | The index (position) of the item in the shopping cart.  |
+| `prev_index`      | The previous index of the item in the shopping cart.    |
+| `id`              | The unique identifier for the product.                  |
+| `product`         | The product details.                                    |
+| `unit_price`      | The price per unit of the product.                      |
+| `quantity`        | The quantity of the product.                            |
+| `unit_discount`   | The discount applied to each unit of the product.       |
+| `total_discount`  | The discount applied to the total price of the product. |
+| `aggregate_price` | The total price of the item after applying discounts.   |
 
 ## Release
 

@@ -24,7 +24,10 @@
 		"shopping-cart",
 		"react-context",
 		"provider",
-		"react-hooks"
+		"react-hooks",
+		"commerce",
+		"ecommerce",
+		"hooks"
 	],
 	"author": "Sreekanth D",
 	"license": "MIT",
