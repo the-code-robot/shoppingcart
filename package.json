@@ -1,5 +1,5 @@
 {
-	"name": "the-code-robot/shoppingcart",
+	"name": "the-code-robot-shoppingcart",
 	"version": "1.1.0",
 	"description": "A basic react library that provides shopping card context, provider and hooks",
 	"main": "dist/index.js",
