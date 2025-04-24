@@ -2,9 +2,9 @@
 	"name": "the-code-robot-shoppingcart",
 	"version": "1.1.0",
 	"description": "A basic react library that provides shopping card context, provider and hooks",
-	"main": "dist/index.js",
-	"module": "dist/index.mjs",
-	"types": "dist/index.d.ts",
+	"main": "src/index.ts",
+	"module": "src/index.ts",
+	"types": "src/index.d.ts",
 	"scripts": {
 		"build": "rollup --config rollup.config.ts --configPlugin typescript",
 		"test": "jest",
