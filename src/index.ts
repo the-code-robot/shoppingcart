@@ -47,7 +47,7 @@ import generateShoppingCartHook from "./useShoppingCartContext";
  */
 export { IStorage, LocalStoragePersistence } from "./Persistance";
 
-function shoppingCart<ProductType extends object>() {
+export function shoppingCart<ProductType extends object>() {
 	// Generate the shopping cart context
 	const MyShoppingCartContext = generateShoppingCartContext<ProductType>();
 
@@ -70,4 +70,3 @@ function shoppingCart<ProductType extends object>() {
 	};
 }
 
-export default shoppingCart;

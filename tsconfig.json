@@ -13,6 +13,6 @@
 		"noEmit": true,
 		"moduleResolution": "Node"
 	},
-	"include": ["src/**/*.ts", "src/**/*.tsx"],
+	"include": ["src/**/*.ts", "src/**/*.tsx", "types"],
 	"exclude": ["node_modules", "dist", "test"]
 }
